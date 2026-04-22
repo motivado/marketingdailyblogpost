@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-22",
+  "title": "From Imagination to Creation: How Hands-On Makerspace Tools Build Tomorrow's Thinkers",
+  "source": "Notion Approved Instagram Idea: Instagram Post - Urgent for April 17th",
+  "notion_instagram_idea_id": "335f65d7fc20808b8325dd850765c57e",
+  "notion_newsletter_idea_used": "Robotic Fun Facts (Trivia)",
+  "notion_newsletter_idea_id": "26bf65d7fc208093a845f9df1e4d7bb2",
+  "image_url": null,
+  "status": "draft_pending_publish",
+  "reason": "Selldone API unreachable from sandbox (host not in allowlist). Publish manually using body from 2026-04-22.html.",
+  "selldone_endpoint": "POST https://api.selldone.com/shops/2362/blogs",
+  "notion_ideas_to_mark_used_after_publish": [
+    "26bf65d7fc208093a845f9df1e4d7bb2"
+  ]
+}
