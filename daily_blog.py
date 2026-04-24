@@ -173,6 +173,24 @@ def write_article_from_notion(idea: dict) -> tuple[str, str]:
             <h2>How TokyLabs Puts This Into Practice</h2>
             <p>At TokyLabs, building thinkers is at the heart of everything we do. Our Tokymini kits &mdash; screenless robotics designed for primary school children &mdash; remove the distraction of screens and focus entirely on physical interaction, cause-and-effect reasoning, and independent problem-solving. There are no step-by-step instructions to follow. Children explore, experiment, and figure things out with the support of trained mentors who know that the best answer is the one a child discovers on their own. Because a child who learns to think for themselves today becomes the confident, creative adult the world needs tomorrow.</p>
         """).strip()
+    elif "makerspace" in topic.lower() or "3d" in topic.lower() or "polymorph" in topic.lower():
+        title = "Where Ideas Become Real: Inside the TokyLabs Makerspace"
+        body = textwrap.dedent("""
+            <p>What if your child could hold their imagination in their hands &mdash; not as a drawing on paper, not as a dream, but as an actual, solid object they built themselves? That is exactly what happens at the <strong>TokyLabs Makerspace</strong> in Bali, where three remarkable machines give children of every age the power to create in three dimensions.</p>
+
+            <h2>Three Machines, Three Ways to Make</h2>
+            <p>Not every child learns the same way, and not every maker needs the same tool. At TokyLabs, we have matched three fabrication approaches to different stages of growth:</p>
+            <p><strong>Polymorph Plastic (Ages 4&ndash;7):</strong> Imagine Play-Doh, but it turns solid. Kids heat small plastic pellets, mould them into any shape they can dream up, and watch their creation harden right in their hands. It is instant, tactile, and endlessly rewarding &mdash; no instructions required, just imagination.</p>
+            <p><strong>3D Pens (Ages 7&ndash;12):</strong> What if drawing came to life? A 3D pen extrudes thin plastic that hardens mid-air, letting children build glasses frames, mini sculptures, or wearable accessories. It demands patience and a steady hand &mdash; and quietly builds both over time.</p>
+            <p><strong>3D Printing (Secondary School):</strong> The most engineering-focused of the three. Students design an object on a computer using parametric design tools, then watch the printer construct it layer by layer. Slow, precise, and deeply satisfying &mdash; a natural bridge between digital thinking and physical making.</p>
+
+            <h2>Why Making Is a Superpower</h2>
+            <p>When children build things with their hands, they are not just being creative &mdash; they are thinking like engineers. They plan, test, fail, adjust, and try again. Here is a fun fact worth sharing at the dinner table: did you know that smart vacuum cleaners, dishwashers, and even cars with driver-assist features are technically considered robots? The child shaping polymorph plastic today, or perfecting a 3D-printed bracket tomorrow, is developing the same spatial reasoning, iterative thinking, and hands-on confidence that robotics engineers use every day.</p>
+            <p>For teachers and school administrators, a Makerspace is one of the most versatile learning environments you can offer. A single 3D printing project naturally weaves together geometry, material science, product design, and digital literacy &mdash; all anchored by something a student genuinely wants to create.</p>
+
+            <h2>Building the Next Generation of Makers</h2>
+            <p>At TokyLabs, our after-school programs and in-curriculum STEAM sessions are built around a simple conviction: every child deserves the right challenge for their stage of growth. Whether it is a five-year-old moulding their first polymorph creature or a teenager running their first parametric design, the journey is the same &mdash; from idea, to effort, to something real you can hold. That is what our Makerspace is here for. Come explore it with us.</p>
+        """).strip()
     elif "swarm" in topic.lower() or "nasa" in topic.lower():
         title = "What NASA's Robot Swarms Can Teach Us About Educating Kids"
         body = textwrap.dedent("""
@@ -231,6 +249,22 @@ def mark_notion_idea_used(notion: NotionClient, page_id: str) -> None:
     notion.pages.update(page_id=page_id, properties={"Used?": {"checkbox": True}})
 
 
+# ── Helper: extract keywords from Notion page body ───────────────────────────
+def _extract_page_keywords(notion: NotionClient, page_id: str) -> str:
+    """Return a keyword-rich string from the first 500 chars of a page's text blocks."""
+    try:
+        blocks = notion.blocks.children.list(block_id=page_id, page_size=10)
+        texts = []
+        for block in blocks.get("results", []):
+            bt = block.get("type", "")
+            rich = block.get(bt, {}).get("rich_text", [])
+            for rt in rich:
+                texts.append(rt.get("plain_text", ""))
+        return " ".join(texts)[:500]
+    except Exception:
+        return ""
+
+
 # ── Main workflow ─────────────────────────────────────────────────────────────
 def main() -> None:
     notion = NotionClient(auth=NOTION_TOKEN)
@@ -278,8 +312,15 @@ def main() -> None:
         log("No new Instagram posts found. Using Notion idea fallback.")
 
         if approved_ig:
-            topic_idea = {"idea": approved_ig[0]["name"], "section": "Instagram Idea"}
-            source_label = f"Notion Instagram Idea (Approved): {approved_ig[0]['name']}"
+            ig_entry = approved_ig[0]
+            # Fetch page body to extract topic keywords for article matching
+            topic_keywords = _extract_page_keywords(notion, ig_entry["id"])
+            topic_idea = {
+                "idea": topic_keywords or ig_entry["name"],
+                "section": "Instagram Idea",
+                "id": ig_entry["id"],
+            }
+            source_label = f"Notion Instagram Idea (Approved): {ig_entry['name']}"
         elif newsletter_ideas:
             # Prefer non-empty / rich ideas
             swarmathon = next((i for i in newsletter_ideas if "swarm" in i["idea"].lower() or "nasa" in i["idea"].lower()), None)
