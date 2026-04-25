@@ -149,7 +149,25 @@ def write_article_from_notion(idea: dict) -> tuple[str, str]:
     topic = idea["idea"] if "idea" in idea else idea["name"]
     section = idea.get("section", "")
 
-    if "critical thinking" in topic.lower() or "think" in topic.lower():
+    if any(kw in topic.lower() for kw in ("makerspace", "3d", "polymorph", "printing", "laser", "machine", "make", "creat")):
+        title = "Where Ideas Take Shape: Inside the TokyLabs Makerspace"
+        body = textwrap.dedent("""
+            <h2>Where did that come from? Your child made it with their own hands.</h2>
+            <p>Not a drawing on a screen. Not a template filled in. A real, three-dimensional object they imagined, shaped, and held in their palms just minutes later. That moment &mdash; when a child&rsquo;s idea becomes a tangible creation &mdash; is one of the most powerful learning experiences we know. And it&rsquo;s exactly what happens every day at the <strong>TokyLabs Makerspace in Bali</strong>.</p>
+
+            <h3>Three Tools, Every Age, One Big Idea</h3>
+            <p>The Makerspace is built around three hands-on technologies, each matched to a different stage of development. For the youngest creators &mdash; <strong>ages 4 to 7</strong> &mdash; we use <strong>polymorph plastic</strong>: special pellets that soften when warmed and become as moldable as Play-Doh. Children shape them freely, watch them cool into solid objects, and end up holding something real. No instructions required, just pure tactile imagination. For children aged <strong>7 to 12</strong>, the <strong>3D pen</strong> opens up a new kind of magic: drawing shapes that literally pop off the surface into three-dimensional sculptures in the air. It&rsquo;s creative, slightly unpredictable, and wonderfully fun &mdash; while quietly building spatial thinking, patience, and fine motor skills. For older secondary students ready for a deeper challenge, <strong>3D printing</strong> introduces parametric computer design and iterative engineering: model it, print it, test it, improve it.</p>
+
+            <h3>Why Making Things by Hand Still Matters</h3>
+            <p>In an age of instant digital content, there&rsquo;s something quietly radical about giving a child a warm piece of plastic and saying, &ldquo;Make anything you want.&rdquo; Research consistently shows that children who create physical objects develop stronger problem-solving persistence, deeper spatial reasoning, and a kind of creative confidence that transfers across subjects. Joy is at the heart of this process. Unlike motivation that fades when outcomes disappoint, joy in the act of creating is self-sustaining &mdash; it&rsquo;s what keeps a young inventor trying a fourth time when the first three attempts didn&rsquo;t quite work out.</p>
+
+            <h3>Practical Tips for Parents and Educators</h3>
+            <p>You don&rsquo;t need a full makerspace at home to encourage this mindset. Start simple: give children materials with no instructions and a real problem to solve (&ldquo;can you build something that holds your pencils?&rdquo;). Resist the urge to show them how &mdash; instead, ask questions: &ldquo;What would happen if you tried it the other way?&rdquo; The goal isn&rsquo;t a perfect product; it&rsquo;s a child who has experienced the full cycle of imagining, trying, failing, and trying again.</p>
+
+            <h3>TokyLabs Makerspace: Come and Make Something</h3>
+            <p>Our Bali Makerspace is designed so that children of every age walk in with an idea and walk out with something they built. Whether it&rsquo;s a five-year-old&rsquo;s first polymorph creature, a middle-schooler&rsquo;s 3D-pen sculpture, or a teenager&rsquo;s first printed prototype, our instructors are there to spark curiosity and celebrate every creation. After-school sessions are available for international schools across Bali. Reach out via WhatsApp &mdash; link in bio &mdash; to find out about upcoming sessions and availability.</p>
+        """).strip()
+    elif "critical thinking" in topic.lower() or "think" in topic.lower():
         title = "Why Critical Thinking Is the Most Important Skill You Can Give Your Child in the Age of AI"
         body = textwrap.dedent("""
             <p>Your child is growing up in a world where artificial intelligence can answer almost any question in seconds. But here is what AI still cannot do: <em>think for your child</em>. The real advantage in tomorrow&rsquo;s world is not having the right answers &mdash; it&rsquo;s knowing how to ask the right questions, evaluate information, and make thoughtful decisions. Critical thinking is not a bonus skill anymore. It is the foundation.</p>
@@ -279,6 +297,7 @@ def main() -> None:
 
         if approved_ig:
             topic_idea = {"idea": approved_ig[0]["name"], "section": "Instagram Idea"}
+            notion_idea_used = {**topic_idea, "id": approved_ig[0]["id"]}
             source_label = f"Notion Instagram Idea (Approved): {approved_ig[0]['name']}"
         elif newsletter_ideas:
             # Prefer non-empty / rich ideas
