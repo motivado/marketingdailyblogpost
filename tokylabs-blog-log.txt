@@ -1,0 +1,7 @@
+[2026-04-26] Source: Notion Instagram Idea (Approved): Instagram Post - Urgent for April 24th (Makerspace machines)
+[2026-04-26] Title: "From Plastic Pellets to 3D Printers: Why Every Child Should Experience a Makerspace"
+[2026-04-26] Notion Newsletter Idea used: "Cool Stuff - MIT's New Tool to Train Robots Any Way You Like"
+[2026-04-26] Ebook section used: n/a
+[2026-04-26] RSS feeds: Both returned 403 Forbidden — no Instagram posts checked
+[2026-04-26] Status: FAILED — Selldone API returned 403 Host not in allowlist (execution environment IP not whitelisted)
+[2026-04-26] Draft saved to: /root/Documents/tokylabs-drafts/2026-04-26.md
