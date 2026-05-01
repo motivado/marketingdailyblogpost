@@ -1,0 +1,5 @@
+[2026-05-01] Source: Notion Newsletter Idea — Fam. Project (no Instagram post available; RSS feeds blocked)
+[2026-05-01] Title: "Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click"
+[2026-05-01] Notion Newsletter Idea used: "Catapult Cannon" (Fam. Project)
+[2026-05-01] Ebook section used: n/a (ebook path inaccessible from Linux environment)
+[2026-05-01] Status: DRAFT saved ⚠️ — Selldone publish failed (API host not in network allowlist). Draft at ~/Documents/tokylabs-drafts/2026-05-01.md
