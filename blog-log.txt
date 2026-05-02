@@ -1,0 +1,5 @@
+[2026-05-02] Source: Notion Newsletter Idea / Ebook fallback (no new Instagram posts — RSS feeds inaccessible from sandbox)
+[2026-05-02] Title: "From Mars to the Makerspace: Why Space Agencies Train Teachers with Robots"
+[2026-05-02] Notion Newsletter Idea used: "Cool Stuff - ESA's Technology & Robotics Workshops"
+[2026-05-02] Ebook section used: n/a
+[2026-05-02] Status: DRAFT SAVED — Selldone API unreachable from sandbox. Draft at drafts/2026-05-02.md. Retry publish needed. Notion idea NOT yet marked as used.
