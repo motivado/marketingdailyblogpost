@@ -14,7 +14,7 @@ import feedparser
 import requests
 from notion_client import Client as NotionClient
 
-# ── Config ────────────────────────────────────────────────────────────────────
+# ── Config ────────────────────────────────────────────────────────────────────────────────
 SELLDONE_TOKEN = os.environ["SELLDONE_TOKEN"]
 SELLDONE_SHOP_ID = os.environ.get("SELLDONE_SHOP_ID", "2362")
 RSS_TOKYLABS = os.environ["RSS_FEED_TOKYLABS"]
@@ -32,8 +32,8 @@ DRAFTS_DIR.mkdir(parents=True, exist_ok=True)
 SELLDONE_API = f"https://api.selldone.com/shops/{SELLDONE_SHOP_ID}/blogs"
 
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
-def today_str() -> str:
+# ── Helpers ─────────────────────────────────────────────────────────────────────────────
+ndef today_str() -> str:
     return datetime.date.today().isoformat()
 
 
@@ -50,7 +50,7 @@ def save_draft(title: str, body_html: str) -> pathlib.Path:
     return path
 
 
-# ── Step 1: Notion — Newsletter Ideas (unused) ────────────────────────────────
+# ── Step 1: Notion — Newsletter Ideas (unused) ────────────────────────────────────────────
 def fetch_unused_newsletter_ideas(notion: NotionClient) -> list[dict]:
     response = notion.databases.query(
         database_id=NEWSLETTER_DB,
@@ -67,7 +67,7 @@ def fetch_unused_newsletter_ideas(notion: NotionClient) -> list[dict]:
     return ideas
 
 
-# ── Step 1: Notion — Instagram Ideas (not Posted) ────────────────────────────
+# ── Step 1: Notion — Instagram Ideas (not Posted) ──────────────────────────────────────────
 def fetch_pending_instagram_ideas(notion: NotionClient) -> list[dict]:
     response = notion.databases.query(
         database_id=INSTAGRAM_DB,
@@ -84,7 +84,7 @@ def fetch_pending_instagram_ideas(notion: NotionClient) -> list[dict]:
     return sorted(ideas, key=lambda x: (x["status"] != "Approved", x["name"]))
 
 
-# ── Step 2: RSS feed check ────────────────────────────────────────────────────
+# ── Step 2: RSS feed check ───────────────────────────────────────────────────────────────────
 def fetch_new_posts(rss_url: str) -> list[dict]:
     """Return posts published today or yesterday."""
     today = datetime.date.today()
@@ -109,7 +109,7 @@ def fetch_new_posts(rss_url: str) -> list[dict]:
     return new
 
 
-# ── Step 4: Write article from Instagram post ─────────────────────────────────
+# ── Step 4: Write article from Instagram post ────────────────────────────────────────────────
 def write_article_from_instagram(
     post: dict,
     image_url: str | None,
@@ -134,7 +134,7 @@ def write_article_from_instagram(
         <p>Hands-on projects like this are where real learning happens. When children build, test, and improve something with their own hands, they develop problem-solving instincts, persistence, and creative confidence that no worksheet can replicate.</p>
         {notion_snippet}
         <h2>Bringing It Into the Classroom or Home</h2>
-        <p>Teachers and parents don't need a high-tech lab to create these moments. Open-ended challenges — even simple ones with cardboard, wheels, or basic electronics — put children in the driver's seat of their own learning. The goal is not a perfect result; it's the thinking along the way.</p>
+        <p>Teachers and parents don&rsquo;t need a high-tech lab to create these moments. Open-ended challenges &mdash; even simple ones with cardboard, wheels, or basic electronics &mdash; put children in the driver&rsquo;s seat of their own learning. The goal is not a perfect result; it&rsquo;s the thinking along the way.</p>
 
         <h2>TokyLabs After-School Activities</h2>
         <p>TokyLabs brings exactly this energy into international schools across Bali. Our team of trained educators leads after-school robotics sessions where students work with Tokymaker kits to design, build, and program real devices. Every session is a new challenge, and every challenge builds the skills children will rely on for life.</p>
@@ -143,13 +143,39 @@ def write_article_from_instagram(
     return title, body
 
 
-# ── Step 5: Write article from Notion idea ───────────────────────────────────
+# ── Step 5: Write article from Notion idea ───────────────────────────────────────────────────
 def write_article_from_notion(idea: dict) -> tuple[str, str]:
     """Return (title, body_html) for a newsletter idea or Instagram idea topic."""
     topic = idea["idea"] if "idea" in idea else idea["name"]
-    section = idea.get("section", "")
+    t = topic.lower()
 
-    if "critical thinking" in topic.lower() or "think" in topic.lower():
+    if "tokymini" in t or "screenless" in t or ("new" in t and "version" in t):
+        title = "Why Screenless Robotics Is the Next Big Thing for Primary School Kids"
+        body = textwrap.dedent("""
+            <p>What if the most powerful learning tool for young children had no screen at all? In a world that often equates technology with screens, screenless robotics flips the script entirely &mdash; and it turns out, that is exactly what young learners need most.</p>
+
+            <h2>Why Hands-On Matters More Than Ever</h2>
+
+            <p>Primary school children &mdash; roughly ages 5 to 11 &mdash; are in a critical window for building the foundations of lifelong learning: fine motor control, spatial reasoning, cause-and-effect thinking, and early problem-solving. These skills do not grow by watching a video or tapping a tablet. They grow when children use their hands, make something move, take it apart, and figure out why it works the way it does.</p>
+
+            <p>Screenless robotics kits are designed around this exact insight. Rather than asking young learners to stare at a screen and write lines of code, they invite children to connect pieces, flip switches, and watch physical reactions unfold in real time. The feedback is immediate and tangible &mdash; the robot moves, or it does not. That direct feedback loop is one of the most effective teaching mechanisms in early childhood education, and research consistently shows that tactile, physical learning experiences lead to deeper retention and stronger creative confidence.</p>
+
+            <h2>Three Ways to Bring Screenless Robotics to Life at Home or in Class</h2>
+
+            <p>For teachers and parents introducing robotics at the primary level, these three principles make all the difference:</p>
+
+            <ul>
+              <li><strong>Start with exploring, not explaining.</strong> Let children interact with the kit freely before introducing any instructions. Curiosity is the best teacher &mdash; and young children will naturally start experimenting the moment you hand them something new.</li>
+              <li><strong>Treat every mistake as a milestone.</strong> When a circuit does not close or the robot goes in the wrong direction, that is not failure &mdash; that is the learning event. Celebrate the moment a child asks &ldquo;Why did that happen?&rdquo; rather than the moment they get it right.</li>
+              <li><strong>Ask questions instead of giving answers.</strong> &ldquo;What do you think would happen if you moved this piece?&rdquo; or &ldquo;Can you think of another way?&rdquo; builds the habit of inquiry that will serve children across every subject and every stage of life.</li>
+            </ul>
+
+            <h2>Something Exciting Is Coming from TokyLabs</h2>
+
+            <p>At TokyLabs, the belief that joy and hands-on creation belong together is at the heart of everything the team builds. Tokymini &mdash; the screenless robotics kit designed specifically for primary school children &mdash; brings these principles to life for the youngest makers. It is purposefully screen-free, tactile, and designed to spark curiosity from the very first moment a child opens the box. And there is exciting news ahead: a new version of Tokymini is on its way. More creative possibilities, the same joyful spirit. Head over to <a href=\"https://tokylabs.com\">tokylabs.com</a> to stay updated and be among the first to discover what is coming.</p>
+        """).strip()
+
+    elif "critical thinking" in t or "think" in t:
         title = "Why Critical Thinking Is the Most Important Skill You Can Give Your Child in the Age of AI"
         body = textwrap.dedent("""
             <p>Your child is growing up in a world where artificial intelligence can answer almost any question in seconds. But here is what AI still cannot do: <em>think for your child</em>. The real advantage in tomorrow&rsquo;s world is not having the right answers &mdash; it&rsquo;s knowing how to ask the right questions, evaluate information, and make thoughtful decisions. Critical thinking is not a bonus skill anymore. It is the foundation.</p>
@@ -160,10 +186,9 @@ def write_article_from_notion(idea: dict) -> tuple[str, str]:
 
             <h2>How Hands-On Learning Builds Young Thinkers</h2>
             <p>When a child builds a robot &mdash; even a simple screenless one &mdash; they are not following a script. They set a goal, design a solution, test it, observe what goes wrong, and iterate. This process, repeated across dozens of small projects, is how critical thinking becomes a habit rather than a lesson.</p>
-            <p>The same principle drives real-world robotics challenges. NASA&rsquo;s Swarmathon challenged students to design algorithms for swarms of small robots solving coordination problems &mdash; the same search patterns used in space exploration. What made it powerful was not the technology itself, but the act of grappling with an open-ended problem and discovering a solution through persistence and creative reasoning. We can offer children that same experience at the right scale, from a very young age.</p>
             <p>For teachers and parents, the key is to resist giving the answer. When a child&rsquo;s robot does not behave as expected, that moment of confusion is the learning. Ask questions instead: <em>What do you think went wrong? What could we try differently?</em> The struggle is the point.</p>
 
-            <h2>Practical Ways to Nurture a Critical Thinker at Home or in Class</h2>
+            <h2>Practical Ways to Nurture a Critical Thinker</h2>
             <ul>
             <li><strong>Introduce &ldquo;why&rdquo; conversations</strong> regularly &mdash; why does something work, what would happen if one thing changed?</li>
             <li><strong>Encourage low-stakes experimentation</strong>: building, cooking, gardening, or simple craft projects where children make decisions and observe outcomes.</li>
@@ -171,10 +196,11 @@ def write_article_from_notion(idea: dict) -> tuple[str, str]:
             </ul>
 
             <h2>How TokyLabs Puts This Into Practice</h2>
-            <p>At TokyLabs, building thinkers is at the heart of everything we do. Our Tokymini kits &mdash; screenless robotics designed for primary school children &mdash; remove the distraction of screens and focus entirely on physical interaction, cause-and-effect reasoning, and independent problem-solving. There are no step-by-step instructions to follow. Children explore, experiment, and figure things out with the support of trained mentors who know that the best answer is the one a child discovers on their own. Because a child who learns to think for themselves today becomes the confident, creative adult the world needs tomorrow.</p>
+            <p>At TokyLabs, building thinkers is at the heart of everything we do. Our Tokymini kits &mdash; screenless robotics designed for primary school children &mdash; remove the distraction of screens and focus entirely on physical interaction, cause-and-effect reasoning, and independent problem-solving. There are no step-by-step instructions to follow. Children explore, experiment, and figure things out with the support of trained mentors who know that the best answer is the one a child discovers on their own.</p>
         """).strip()
-    elif "swarm" in topic.lower() or "nasa" in topic.lower():
-        title = "What NASA's Robot Swarms Can Teach Us About Educating Kids"
+
+    elif "swarm" in t or "nasa" in t:
+        title = "What NASA&rsquo;s Robot Swarms Can Teach Us About Educating Kids"
         body = textwrap.dedent("""
             <p>What if the best way to prepare children for the future was to let them solve real problems &mdash; the same kind engineers at NASA grapple with? It sounds ambitious, but the principle is simpler than you think.</p>
 
@@ -184,11 +210,28 @@ def write_article_from_notion(idea: dict) -> tuple[str, str]:
 
             <h2>Bringing the Swarmathon Mindset to Any Classroom</h2>
             <p>You don&rsquo;t need a NASA budget to create this kind of learning. The key ingredients are: an open-ended challenge, the freedom to fail and iterate, and a teacher who asks questions rather than giving answers. A classroom robotics kit can replicate the same cognitive journey &mdash; setting goals, building a solution, watching it fail, and improving it.</p>
-            <p>For teachers, this means resisting the urge to demonstrate the &ldquo;right&rdquo; way first. Give students the problem and the tools, then step back. The productive struggle is where the real learning happens.</p>
 
             <h2>TokyLabs Teacher Training</h2>
             <p>At TokyLabs, we believe every teacher can create this kind of environment &mdash; and we help them get there. Our STEM robotics certification programs give educators the confidence, tools, and techniques to facilitate open-ended challenges using Tokymaker in their own classrooms. Because when teachers shift from instructing to mentoring, the whole classroom transforms.</p>
         """).strip()
+
+    elif "joy" in t or "philosophy" in t:
+        title = "Joy Is Not Just a Feeling &mdash; It&rsquo;s the Engine of Real Learning"
+        body = textwrap.dedent("""
+            <p>When was the last time you watched a child completely lost in something they loved? No prompting, no reward &mdash; just pure, absorbed curiosity. That is joy at work. And it turns out, joy is not a side effect of good learning. It is the source of it.</p>
+
+            <h2>Why Joy Makes Learning Stick</h2>
+            <p>Neuroscience backs what great educators have always known: when children experience joy while learning, their brains form stronger, longer-lasting memories. The emotional engagement that comes from excitement and delight acts as a signal to the brain that says, &ldquo;this matters &mdash; remember it.&rdquo; Dry, passive instruction rarely produces this effect. Hands-on creation almost always does.</p>
+            <p>Joy also builds resilience. A child who is genuinely enjoying a challenge will try again when something goes wrong &mdash; not because they were told to, but because they <em>want</em> to see it work. That intrinsic motivation is the foundation of lifelong learning.</p>
+
+            <h2>Creating Joyful Learning Moments</h2>
+            <p>Joy in learning does not require expensive equipment or elaborate setups. It requires giving children agency &mdash; the freedom to choose how they approach a problem, to make it their own, to surprise themselves with what they can do. For teachers, this means designing open-ended challenges rather than step-by-step instructions. For parents, it means following your child&rsquo;s curiosity rather than directing it.</p>
+            <p>Even a simple question &mdash; &ldquo;What would happen if we changed this?&rdquo; &mdash; can transform a routine activity into a joyful experiment. The goal is not the finished product. It is the spark in a child&rsquo;s eyes when something clicks.</p>
+
+            <h2>Joy at the Heart of TokyLabs</h2>
+            <p>At TokyLabs, joy is not a teaching strategy. It is the whole philosophy. From Tokymini kits that let primary school children build and explore without ever looking at a screen, to Tokymaker sessions where older students design real devices from scratch, every experience is engineered to make children feel the thrill of creation. Because we believe that a child who learns with joy does not just learn better &mdash; they become someone who never stops wanting to learn.</p>
+        """).strip()
+
     else:
         title = f"The Power of {topic}: Why It Matters for Young Learners"
         body = textwrap.dedent(f"""
@@ -207,7 +250,7 @@ def write_article_from_notion(idea: dict) -> tuple[str, str]:
     return title, body
 
 
-# ── Step 6: Publish to Selldone ───────────────────────────────────────────────
+# ── Step 6: Publish to Selldone ────────────────────────────────────────────────────────────────────
 def publish_to_selldone(title: str, body_html: str, image_url: str | None = None) -> dict:
     payload: dict = {"title": title, "body": body_html, "published": True}
     if image_url:
@@ -226,12 +269,12 @@ def publish_to_selldone(title: str, body_html: str, image_url: str | None = None
     return resp.json()
 
 
-# ── Step 7: Mark Notion idea as used ─────────────────────────────────────────
+# ── Step 7: Mark Notion idea as used ─────────────────────────────────────────────────────────────────────────────
 def mark_notion_idea_used(notion: NotionClient, page_id: str) -> None:
     notion.pages.update(page_id=page_id, properties={"Used?": {"checkbox": True}})
 
 
-# ── Main workflow ─────────────────────────────────────────────────────────────
+# ── Main workflow ──────────────────────────────────────────────────────────────────────────────────────
 def main() -> None:
     notion = NotionClient(auth=NOTION_TOKEN)
 
@@ -281,9 +324,7 @@ def main() -> None:
             topic_idea = {"idea": approved_ig[0]["name"], "section": "Instagram Idea"}
             source_label = f"Notion Instagram Idea (Approved): {approved_ig[0]['name']}"
         elif newsletter_ideas:
-            # Prefer non-empty / rich ideas
-            swarmathon = next((i for i in newsletter_ideas if "swarm" in i["idea"].lower() or "nasa" in i["idea"].lower()), None)
-            topic_idea = swarmathon or newsletter_ideas[0]
+            topic_idea = newsletter_ideas[0]
             notion_idea_used = topic_idea
             source_label = f"Notion Newsletter Idea ({topic_idea['section']})"
         else:
@@ -295,7 +336,6 @@ def main() -> None:
     # Step 6: Publish
     try:
         result = publish_to_selldone(title, body_html, image_url)
-        status = "Published"
         log(f"Source: {source_label}")
         log(f"Title: \"{title}\"")
         if notion_idea_used:

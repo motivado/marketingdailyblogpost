@@ -1,0 +1,30 @@
+name: Daily Blog Post
+
+on:
+  schedule:
+    # 09:00 WIB = 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily blog publisher
+        env:
+          SELLDONE_TOKEN: ${{ secrets.SELLDONE_TOKEN }}
+          SELLDONE_SHOP_ID: ${{ secrets.SELLDONE_SHOP_ID }}
+          RSS_FEED_TOKYLABS: ${{ secrets.RSS_FEED_TOKYLABS }}
+          RSS_FEED_TOKYLABS_BALI: ${{ secrets.RSS_FEED_TOKYLABS_BALI }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          LANGUAGE: English
+        run: python daily_blog.py
