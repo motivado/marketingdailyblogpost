@@ -1,0 +1,5 @@
+[2026-05-04] Source: Notion Instagram Plan (MAY 4th) + Newsletter Idea fallback (no Instagram RSS — 403)
+[2026-05-04] Title: "Innovation Doesn't Start With Ideas — It Starts With Joy"
+[2026-05-04] Notion Newsletter Idea used: "Fam. Project - Straw & Maze Marble Game"
+[2026-05-04] Ebook section used: n/a
+[2026-05-04] Status: Draft saved ⚠️ — Selldone API error: 403 Host not in allowlist. Draft at ~/Documents/tokylabs-drafts/2026-05-04.md
