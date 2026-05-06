@@ -1,0 +1,6 @@
+[2026-05-06] Source: Notion Newsletter Idea (Cool Stuff) — ESA's Technology & Robotics Workshops
+[2026-05-06] Title: "What the European Space Agency Can Teach Us About Robotics in the Classroom"
+[2026-05-06] Notion Newsletter Idea used: "Cool Stuff - ESA's Technology & Robotics Workshops"
+[2026-05-06] Ebook section used: n/a
+[2026-05-06] Status: FAILED — api.selldone.com blocked by sandbox network allowlist. Draft saved to ~/Documents/tokylabs-drafts/2026-05-06.md ❌
+[2026-05-06] Action required: Run publish_draft.sh or POST draft manually to https://api.selldone.com/shops/2362/blogs
