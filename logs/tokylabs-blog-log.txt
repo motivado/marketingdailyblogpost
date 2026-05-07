@@ -1,0 +1,8 @@
+[2026-05-07] Source: Notion Newsletter Idea (Fam. Project — DIY Water Dispenser)
+[2026-05-07] Title: "What a DIY Water Dispenser Teaches Kids That a Textbook Never Could"
+[2026-05-07] Notion Newsletter Idea used: "Fam. Project — DIY Water Dispenser"
+[2026-05-07] Ebook section used: n/a
+[2026-05-07] RSS feeds: BLOCKED (403 Forbidden — host not in network allowlist)
+[2026-05-07] Selldone publish: FAILED — api.selldone.com blocked by network allowlist
+[2026-05-07] Draft saved: ~/Documents/tokylabs-drafts/2026-05-07.md
+[2026-05-07] Status: Draft saved ⚠️ — manual publish required
