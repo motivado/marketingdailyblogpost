@@ -189,6 +189,39 @@ def write_article_from_notion(idea: dict) -> tuple[str, str]:
             <h2>TokyLabs Teacher Training</h2>
             <p>At TokyLabs, we believe every teacher can create this kind of environment &mdash; and we help them get there. Our STEM robotics certification programs give educators the confidence, tools, and techniques to facilitate open-ended challenges using Tokymaker in their own classrooms. Because when teachers shift from instructing to mentoring, the whole classroom transforms.</p>
         """).strip()
+    elif "hackathon" in topic.lower():
+        title = "From Idea to Robot: What School Hackathons Really Teach Children"
+        body = textwrap.dedent("""
+            <p>What if your child could walk into a room with raw materials, a challenge, and a team of friends &mdash; and walk out hours later with a working robot they built themselves? This is the magic of a school hackathon, and the skills your child gains in those few charged hours may be the most important they will learn all year.</p>
+
+            <h2>Building Under Pressure &mdash; and Loving It</h2>
+            <p>Hackathons are designed to push children to think fast, collaborate under pressure, and embrace failure as part of the process. When a student&rsquo;s robot doesn&rsquo;t work on the first try &mdash; or the third &mdash; they don&rsquo;t give up. They debug, rebuild, and try again. This is the definition of engineering thinking, and it develops resilience, adaptability, and a growth mindset that carries far beyond the classroom. Research consistently shows that children who engage in challenge-based, project-driven learning develop stronger problem-solving skills and greater confidence in their own ability to tackle difficult tasks.</p>
+
+            <h2>Student-Driven Learning: Why It Changes Everything</h2>
+            <p>Unlike traditional instruction, where knowledge moves from teacher to student in one direction, a hackathon is fully student-led. Children must ask the right questions, manage their time, and make real decisions &mdash; often for the first time. They discover that there is rarely one &ldquo;correct&rdquo; answer, and that creative thinking is just as valuable as technical knowledge. This mirrors the collaborative, innovative environments they will encounter in their future careers, making hackathons one of the most future-ready learning experiences available today.</p>
+
+            <h2>Bringing the Hackathon Spirit Home</h2>
+            <p>You don&rsquo;t need a full event to bring this energy home or into your classroom. Start small: give children a creative challenge with a time limit &mdash; building a bridge from popsicle sticks, designing a marble run, or even making a family tree together from recycled craft materials. These &ldquo;mini-maker&rdquo; moments teach the same core skills: planning, problem-solving, and the joy of building something as a team. Celebrate the attempts, not just the results. The process is where the real learning happens.</p>
+
+            <h2>TokyLabs Hackathons: Where Ideas Come to Life</h2>
+            <p>TokyLabs runs student hackathons as part of its after-school programs in Bali, bringing together young learners from international schools to brainstorm, prototype, and present their robotic creations in a single day of focused, joyful building. Whether your child is a first-time maker or a seasoned Tokymaker user, the Hackathon experience is one they will talk about long after the buzzer sounds. Want to bring this energy to your school? Reach out to us and explore how a TokyLabs Hackathon could ignite your students&rsquo; curiosity &mdash; and confidence &mdash; this term.</p>
+        """).strip()
+    elif "family" in topic.lower() or "fam" in topic.lower():
+        title = "Why Building Things Together as a Family Is the Best STEM Activity You're Not Doing"
+        body = textwrap.dedent("""
+            <p>The best STEM lesson your child might ever get doesn&rsquo;t happen in a classroom &mdash; it happens at the kitchen table, on a Sunday afternoon, with cardboard, tape, and a shared challenge. Family maker projects are one of the most underrated tools for raising curious, confident, creative children. And all it takes is a problem, some materials, and a willingness to try.</p>
+
+            <h2>What Happens When Families Build Together</h2>
+            <p>When parents and children tackle a project side by side &mdash; whether it&rsquo;s a model family tree from recycled materials, a simple catapult, or a homemade water dispenser &mdash; several things happen at once. Children see that adults also struggle, experiment, and don&rsquo;t always get it right on the first try. This normalises difficulty and models the growth mindset that every good educator tries to nurture. Meanwhile, the act of making decisions together builds communication, negotiation, and problem-solving skills in a natural, low-pressure environment.</p>
+            <p>Research supports what many parents intuitively feel: hands-on family activities deepen children&rsquo;s engagement with learning and strengthen their intrinsic motivation to explore. When a child builds something with someone they love, the memory &mdash; and the lesson &mdash; sticks.</p>
+
+            <h2>Simple Projects With Big Impact</h2>
+            <p>You don&rsquo;t need expensive kits or engineering expertise. Some of the most powerful maker moments come from the simplest materials. A cardboard family tree with moving parts, a pulley system made from a toilet roll and string, or a paper bridge challenge over the weekend &mdash; these activities spark exactly the same kind of thinking that robotics engineers use every day: design, build, test, and improve. The goal is not perfection. It is the conversation that happens along the way.</p>
+            <p>For teachers, family projects are also a powerful bridge between school and home. Sending students home with an open-ended challenge &mdash; with no single correct answer and no kit to follow &mdash; invites families into the learning process and reinforces that curiosity is not something that stops at the school gate.</p>
+
+            <h2>TokyLabs: Learning That Starts at School and Comes Home</h2>
+            <p>At TokyLabs, we design robotics experiences that are meant to be talked about at dinner. Our after-school programs and Tokymaker kits give students a foundation of hands-on skills that naturally sparks questions, ideas, and conversations at home. Because the best learning happens when school and family are building in the same direction &mdash; literally.</p>
+        """).strip()
     else:
         title = f"The Power of {topic}: Why It Matters for Young Learners"
         body = textwrap.dedent(f"""
