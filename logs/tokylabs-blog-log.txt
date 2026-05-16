@@ -1,0 +1,5 @@
+[2026-05-16] Source: Notion Newsletter Ideas (fallback — Instagram RSS feeds and Selldone API blocked by remote environment network policy)
+[2026-05-16] Title: "Why Screenless Robotics Is Captivating Schools Across Indonesia"
+[2026-05-16] Notion Newsletter Idea used: "What's New? - expansion jakarta" + "Cool Stuff - Youtubers" (enrichment)
+[2026-05-16] Ebook section used: n/a (ebook path /Users/eduardo/... not accessible in remote environment)
+[2026-05-16] Status: Draft saved ⚠️ — publish manually using drafts/2026-05-16.md
