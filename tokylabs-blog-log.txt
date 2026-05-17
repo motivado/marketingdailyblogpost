@@ -1,0 +1,6 @@
+[2026-05-17] Source: Notion Newsletter Idea (What's New?)
+[2026-05-17] Title: "What Educators Are Really Saying: Lessons from Bali's Education Unconference"
+[2026-05-17] Notion Newsletter Idea used: "What's New? - UNCONFERENCE photo"
+[2026-05-17] Ebook section used: n/a
+[2026-05-17] Status: FAILED — Selldone API blocked (Host not in allowlist — network policy on remote execution environment)
+[2026-05-17] Draft saved to: ~/Documents/tokylabs-drafts/2026-05-17.md
