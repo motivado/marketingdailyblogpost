@@ -1,0 +1,8 @@
+[2026-05-18] Source: Notion — "UNCONFERENCE photo" (What's New?)
+[2026-05-18] Title: "Why TokyLabs Shows Up at Education Conferences — And What We Heard"
+[2026-05-18] Notion Newsletter Idea used: "UNCONFERENCE photo" — Eduardo attended unconference tracking real teacher/school challenges
+[2026-05-18] Ebook section used: n/a
+[2026-05-18] Instagram RSS feeds: blocked (HTTP 403 + host not in network allowlist) — no new posts detected
+[2026-05-18] Selldone publish: FAILED — api.selldone.com not in network allowlist
+[2026-05-18] Draft saved to: ~/Documents/tokylabs-drafts/2026-05-18.md
+[2026-05-18] Status: Draft saved ⚠️ — manual publish required
