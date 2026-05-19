@@ -1,0 +1,5 @@
+[2026-05-19] Source: Notion Newsletter Idea (Cool Stuff) — no new Instagram posts (RSS blocked by network policy)
+[2026-05-19] Title: "The Smallest Robots in the World: What Microrobots Teach Kids About Big-Picture Thinking"
+[2026-05-19] Notion Newsletter Idea used: "Cool Stuff - The Smallest Robots in the World, like Microrobots and what they can do."
+[2026-05-19] Ebook section used: n/a (ebook not accessible in remote environment)
+[2026-05-19] Status: FAILED — api.selldone.com blocked by network policy. Draft saved to ~/Documents/tokylabs-drafts/2026-05-19.md
