@@ -19,7 +19,8 @@ SELLDONE_TOKEN = os.environ["SELLDONE_TOKEN"]
 SELLDONE_SHOP_ID = os.environ.get("SELLDONE_SHOP_ID", "2362")
 RSS_TOKYLABS = os.environ["RSS_FEED_TOKYLABS"]
 RSS_TOKYLABS_BALI = os.environ["RSS_FEED_TOKYLABS_BALI"]
-NOTION_TOKEN = os.environ["NOTION_TOKEN"]
+# NOTION_TOKEN: get from https://www.notion.so/my-integrations (Internal Integration token)
+NOTION_TOKEN = os.environ.get("NOTION_TOKEN", "")
 LANGUAGE = os.environ.get("LANGUAGE", "English")
 
 NEWSLETTER_DB = "261f65d7-fc20-8038-9b30-000b3cb15a1d"
@@ -233,11 +234,19 @@ def mark_notion_idea_used(notion: NotionClient, page_id: str) -> None:
 
 # ── Main workflow ─────────────────────────────────────────────────────────────
 def main() -> None:
-    notion = NotionClient(auth=NOTION_TOKEN)
+    if not NOTION_TOKEN:
+        log("WARNING: NOTION_TOKEN not set — Notion steps will be skipped.")
+    notion = NotionClient(auth=NOTION_TOKEN) if NOTION_TOKEN else None
 
     # Step 1: Read Notion
-    newsletter_ideas = fetch_unused_newsletter_ideas(notion)
-    instagram_ideas = fetch_pending_instagram_ideas(notion)
+    newsletter_ideas: list[dict] = []
+    instagram_ideas: list[dict] = []
+    if notion:
+        try:
+            newsletter_ideas = fetch_unused_newsletter_ideas(notion)
+            instagram_ideas = fetch_pending_instagram_ideas(notion)
+        except Exception as exc:
+            log(f"Notion fetch failed: {exc}")
     approved_ig = [i for i in instagram_ideas if i["status"] == "Approved"]
 
     print(f"Newsletter ideas (unused): {len(newsletter_ideas)}")
@@ -310,7 +319,7 @@ def main() -> None:
         log(f"Draft saved to: {draft_path}")
 
     # Mark Notion idea as used
-    if notion_idea_used:
+    if notion_idea_used and notion:
         try:
             mark_notion_idea_used(notion, notion_idea_used["id"])
             log(f"Notion idea marked as used: {notion_idea_used.get('idea', '')}")
