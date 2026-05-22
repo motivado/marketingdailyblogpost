@@ -1,0 +1,8 @@
+[2026-05-22] Source: Notion Instagram Idea / "Instagram Post - May 7th" (Draft Text Review — not yet posted on Instagram)
+[2026-05-22] Title: "5 STEM Careers Your Child Could Love — And How to Spark That Curiosity Today"
+[2026-05-22] Notion Newsletter Idea used: n/a (all newsletter ideas already marked Used? = true)
+[2026-05-22] Instagram Ideas checked: May 4th (Draft Text Review), May 7th (Draft Text Review — used as topic), precious plastic (In progress), April 29th (Draft Image Review). None had "Approved" status.
+[2026-05-22] Ebook section used: n/a (ebook path /Users/eduardo/Documents/... not accessible from remote execution environment)
+[2026-05-22] RSS feeds: BLOCKED (rss.app not in network allowlist — no new Instagram posts could be confirmed)
+[2026-05-22] Selldone API: BLOCKED (api.selldone.com not in network allowlist)
+[2026-05-22] Status: DRAFT SAVED ⚠️ — draft at drafts/2026-05-22.md — requires manual publish to Selldone Shop 2362
