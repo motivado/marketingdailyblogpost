@@ -1,0 +1,5 @@
+[2026-05-23] Source: Notion Newsletter Idea (Philosophical Note) — ebook / TokyLabs Ebook Chapter 1
+[2026-05-23] Title: "Why Creativity Is the New Coding: What Your Child Really Needs to Succeed in an AI World"
+[2026-05-23] Notion Newsletter Idea used: "Philosophical Note - ebook"
+[2026-05-23] Ebook section used: Chapter 1 — The Changing Educational Landscape (screen-free robotics, creativity over coding, AI paradigm shift)
+[2026-05-23] Status: DRAFT ⚠️ — Selldone API host blocked by cloud environment network policy. Draft saved to ~/Documents/tokylabs-drafts/2026-05-23.md. Publish manually or run script locally.
