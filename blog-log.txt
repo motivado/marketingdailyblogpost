@@ -1,0 +1,6 @@
+[2026-05-26] Source: Notion Instagram Idea (Draft Image Review): "Creative kids grow into confident thinkers"
+[2026-05-26] Title: "Why Creativity Is the Most Important Skill in an AI World — And How to Nurture It in Your Child"
+[2026-05-26] Notion Newsletter Idea used: n/a (all 25 entries already marked Used)
+[2026-05-26] Ebook section used: n/a (ebook path not accessible in cloud container)
+[2026-05-26] Status: FAILED — Selldone API blocked by network policy (host not in allowlist)
+[2026-05-26] Draft saved to: ~/Documents/tokylabs-drafts/2026-05-26.md
