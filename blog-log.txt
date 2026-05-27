@@ -1,0 +1,9 @@
+[2026-05-27] Source: Notion Instagram Idea (In progress): "Instagram Post - precious plastic" (upcycling / sustainability / makerspace)
+[2026-05-27] Title: "From Waste to Wonder: How Upcycling Projects Spark Real Engineering Thinking in Children"
+[2026-05-27] Notion Newsletter Idea used: n/a (all 25 newsletter ideas already marked Used?=true)
+[2026-05-27] Instagram Ideas checked: no Approved found (In progress / Draft Text Review / Draft Image Review only)
+[2026-05-27] RSS feeds: unreachable (403 - host not in network allowlist)
+[2026-05-27] Ebook: not accessible in cloud environment (path on user local machine)
+[2026-05-27] Selldone API: BLOCKED - api.selldone.com not in network allowlist
+[2026-05-27] Draft saved to: /home/user/Documents/tokylabs-drafts/2026-05-27.md
+[2026-05-27] Status: DRAFT READY — publish manually or run daily_blog.py locally ⚠️
