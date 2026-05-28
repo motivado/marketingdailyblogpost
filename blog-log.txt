@@ -1,0 +1,7 @@
+[2026-05-28] Source: Notion Social Media Ideas / "10 main ideas" — topic: effort as the only currency (AI age)
+[2026-05-28] Title: "In the Age of AI, Effort Is Your Child's Most Valuable Skill"
+[2026-05-28] Notion Newsletter Idea used: n/a (all Newsletter Ideas already marked Used?)
+[2026-05-28] Ebook section used: n/a (ebook at /Users/eduardo/Documents not accessible in remote container)
+[2026-05-28] Status: FAILED — api.selldone.com blocked by remote execution environment network policy
+[2026-05-28] Draft saved to: ~/Documents/tokylabs-drafts/2026-05-28.md
+[2026-05-28] Note: RSS feeds (rss.app) also blocked by network policy. Instagram check skipped.
