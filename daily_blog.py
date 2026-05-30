@@ -286,8 +286,13 @@ def main() -> None:
             topic_idea = swarmathon or newsletter_ideas[0]
             notion_idea_used = topic_idea
             source_label = f"Notion Newsletter Idea ({topic_idea['section']})"
+        elif instagram_ideas:
+            # Last resort: use any pending (non-posted) Instagram idea as a topic direction
+            topic_idea = {"idea": instagram_ideas[0]["name"], "section": "Instagram Idea (pending)"}
+            source_label = f"Notion Instagram Idea (pending, status={instagram_ideas[0]['status']}): {instagram_ideas[0]['name']}"
+            log(f"All newsletter ideas used. Falling back to pending Instagram idea: {instagram_ideas[0]['name']}")
         else:
-            log("No unused Notion ideas available. Skipping today.")
+            log("No content sources available (all ideas exhausted). Skipping today.")
             return
 
         title, body_html = write_article_from_notion(topic_idea)
