@@ -1,0 +1,6 @@
+[2026-05-31] Source: Notion Instagram Idea (Approved) — "Instagram Post - reels hacakthon May 10th"
+[2026-05-31] Title: "From Idea to Robot: What Really Happens Inside a Kids' Hackathon"
+[2026-05-31] Notion Newsletter Idea used: n/a (all ideas already marked Used? = true)
+[2026-05-31] Ebook section used: n/a
+[2026-05-31] Status: DRAFT ⚠️ — Selldone API blocked by remote env network policy. Draft saved to drafts/2026-05-31.md
+[2026-05-31] RSS feeds: blocked (Host not in allowlist) — fell back to Notion ideas
