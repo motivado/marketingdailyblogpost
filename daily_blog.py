@@ -86,12 +86,20 @@ def fetch_pending_instagram_ideas(notion: NotionClient) -> list[dict]:
 
 # ── Step 2: RSS feed check ────────────────────────────────────────────────────
 def fetch_new_posts(rss_url: str) -> list[dict]:
-    """Return posts published today or yesterday."""
+    """Return posts published today or yesterday.
+
+    rss.app feeds require direct outbound access; they block cloud/proxy IPs.
+    If the feed is unreachable the caller catches the exception and falls back.
+    """
     today = datetime.date.today()
     yesterday = today - datetime.timedelta(days=1)
-    feed = feedparser.parse(rss_url)
+    feed = feedparser.parse(rss_url, request_headers={"User-Agent": "TokyLabsBlogBot/1.0"})
+    if feed.get("bozo") and not feed.entries:
+        raise ConnectionError(f"RSS feed returned no entries (bozo={feed.bozo_exception})")
     new = []
     for entry in feed.entries:
+        if not hasattr(entry, "published_parsed") or entry.published_parsed is None:
+            continue
         pub = datetime.date(*entry.published_parsed[:3])
         if pub >= yesterday:
             images = []
@@ -222,6 +230,11 @@ def publish_to_selldone(title: str, body_html: str, image_url: str | None = None
         json=payload,
         timeout=30,
     )
+    if resp.status_code == 403:
+        raise PermissionError(
+            "Selldone API returned 403. Check that SELLDONE_TOKEN is valid and the "
+            "network allows outbound HTTPS to api.selldone.com."
+        )
     resp.raise_for_status()
     return resp.json()
 
