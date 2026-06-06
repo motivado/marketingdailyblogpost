@@ -1,0 +1,8 @@
+[2026-06-06] Source: Notion Instagram Idea — Critical Thinking carousel (Draft Image Review)
+[2026-06-06] Title: "In a World of AI, Your Child's Greatest Advantage Is How They Think"
+[2026-06-06] Notion Newsletter Idea used: n/a (all marked Used? = true)
+[2026-06-06] Instagram Idea used: April 30th — "Why is critical thinking important" (Draft Image Review)
+[2026-06-06] Ebook section used: n/a (ebook unavailable in remote environment)
+[2026-06-06] Status: FAILED — Selldone API blocked (host not in allowlist for this remote container)
+[2026-06-06] Draft saved: ~/Documents/tokylabs-drafts/2026-06-06.md
+[2026-06-06] RSS feeds: 403 Forbidden (rss.app requires auth or IP allowlisting)
