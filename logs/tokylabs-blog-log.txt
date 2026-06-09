@@ -1,0 +1,7 @@
+[2026-06-09] Source: Notion Instagram Idea — precious plastic makerspace (Status: In progress)
+[2026-06-09] Title: "From Waste to Wonder: How Teaching Kids to Recycle Through Making Changes Everything"
+[2026-06-09] Notion Newsletter Idea used: n/a (all 25 ideas found were already marked Used? = true)
+[2026-06-09] Ebook section used: n/a (ebook file not accessible from remote container)
+[2026-06-09] Status: DRAFT ❌ — Selldone API blocked (api.selldone.com not in network allowlist)
+[2026-06-09] RSS feeds: BLOCKED — rss.app not in network allowlist
+[2026-06-09] Action needed: Re-run from local machine OR add api.selldone.com to network allowlist
