@@ -1,0 +1,8 @@
+[2026-06-10] Source: Notion Instagram Idea — "Instagram Post - April 29th" (Status: Draft Image Review)
+[2026-06-10] Title: "Why Creativity Is the Skill That Will Define Your Child's Future"
+[2026-06-10] Notion Instagram Idea used: "April 29th - Why creativity is important in the AI world" (Draft Image Review)
+[2026-06-10] Notion Newsletter Idea used: n/a (all marked Used? = true)
+[2026-06-10] Ebook section used: n/a (file not accessible in remote environment)
+[2026-06-10] RSS Feeds: Both returned HTTP 403 (network policy / authentication required)
+[2026-06-10] Status: DRAFT SAVED ⚠️ — Selldone API blocked by network allowlist (api.selldone.com not permitted)
+[2026-06-10] Draft saved to: logs/drafts/2026-06-10.md
