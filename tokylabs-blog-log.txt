@@ -1,0 +1,7 @@
+[2026-06-12] Source: Notion Instagram Idea — "Instagram Post - May 7th" (STEM Careers)
+[2026-06-12] Title: "What Will My Child Do in 2035? The STEM Careers Kids Can Start Exploring Today"
+[2026-06-12] Notion Newsletter Idea used: n/a (all 25 checked entries already marked Used? = true)
+[2026-06-12] Ebook section used: n/a (ebook path is local macOS path, not accessible in remote container)
+[2026-06-12] RSS feeds blocked: rss.app not in network egress allowlist
+[2026-06-12] Selldone API blocked: api.selldone.com not in network egress allowlist
+[2026-06-12] Status: Draft saved ⚠️ — publish manually from ~/Documents/tokylabs-drafts/2026-06-12.md
