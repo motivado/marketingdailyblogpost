@@ -1,0 +1,7 @@
+[2026-06-13] Source: Notion Instagram Idea — "Instagram Post - April 29th" (Status: Draft Image Review)
+[2026-06-13] Title: "Why Creativity Is the Skill Every Child Needs in an AI World"
+[2026-06-13] Notion Newsletter Idea used: n/a (all ideas already Used? = YES)
+[2026-06-13] Ebook section used: n/a (ebook not accessible in remote environment)
+[2026-06-13] RSS feeds: blocked (HTTP 403 from rss.app — no new Instagram posts retrieved)
+[2026-06-13] Status: DRAFT SAVED — Selldone API blocked by network egress (api.selldone.com not in allowlist)
+[2026-06-13] Draft saved at: ~/Documents/tokylabs-drafts/2026-06-13.md
