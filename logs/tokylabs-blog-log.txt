@@ -1,0 +1,8 @@
+[2026-06-14] Source: Notion Instagram Idea (In progress): Instagram Post — precious plastic / makerspace
+[2026-06-14] Title: "From Trash to Treasure: What Hands-On Making With Recycled Materials Teaches Children"
+[2026-06-14] Notion Newsletter Idea used: n/a — all 25 newsletter ideas in database are marked Used?=true; article inspired by Notion Instagram Idea "Instagram Post -precious palstic" (Status: In progress)
+[2026-06-14] Ebook section used: n/a
+[2026-06-14] Instagram RSS: NOT CHECKED — rss.app blocked by remote environment network egress policy
+[2026-06-14] Status: FAILED TO PUBLISH — api.selldone.com blocked by remote environment network egress policy
+[2026-06-14] Draft saved to: drafts/2026-06-14.md
+[2026-06-14] ACTION REQUIRED: Add rss.app and api.selldone.com to network egress allowlist in the Claude Code on the web environment settings. See https://code.claude.com/docs/en/claude-code-on-the-web
