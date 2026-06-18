@@ -1,0 +1,8 @@
+[2026-06-18] Source: Instagram Idea (not-posted) — "Instagram Post - April 29th" (Status: Draft Image Review)
+[2026-06-18] Title: "Why Creativity Is the Skill Every Child Needs in an AI World"
+[2026-06-18] Notion Newsletter Idea used: n/a (all 25 entries in database are already Used? = true)
+[2026-06-18] Ebook section used: n/a (ebook path /Users/eduardo/Documents/... not accessible in remote container)
+[2026-06-18] Status: DRAFT SAVED ⚠️ — Publish FAILED: api.selldone.com not in network allowlist
+[2026-06-18] Draft location: ~/Documents/tokylabs-drafts/2026-06-18.md
+[2026-06-18] RSS feeds: rss.app blocked by network egress policy — Instagram fallback not available
+[2026-06-18] Action needed: Add api.selldone.com and rss.app to network allowlist, then re-run or publish draft manually
