@@ -1,0 +1,12 @@
+[2026-06-20] Source: Notion Instagram Idea — "Instagram Post - April 29th" (Status: Draft Image Review, not posted)
+[2026-06-20] Title: "Creative Kids Grow Into Confident Thinkers: Why Creativity Is the Most Important Skill of the AI Age"
+[2026-06-20] Notion Newsletter Idea used: "Joy is our philosophy" (Philosophical Note) — content woven into body
+[2026-06-20] Ebook section used: n/a (ebook path not accessible in remote environment)
+[2026-06-20] Status: DRAFT SAVED — NOT PUBLISHED ❌
+[2026-06-20] Errors encountered:
+  - rss.app blocked by network egress policy (could not check Instagram RSS feeds)
+  - api.selldone.com blocked by network egress policy (could not publish to blog)
+  - EBOOK_PATH (/Users/eduardo/Documents/...) is a local path, inaccessible in remote container
+  - Notion database query tools (query-data-sources, query-database-view) require Business/Enterprise plan — could not filter Newsletter Ideas by Used?=false
+[2026-06-20] Draft saved to: ~/Documents/tokylabs-drafts/2026-06-20.md
+[2026-06-20] Action required: Add api.selldone.com and rss.app to network egress allowlist, then re-run or manually publish the draft.
