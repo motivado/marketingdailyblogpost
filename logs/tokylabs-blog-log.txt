@@ -1,0 +1,6 @@
+[2026-06-21] Source: Notion GTE Notes DB – "MakerSpace" (Newsletter Status: Not started, created 2026-06-20)
+[2026-06-21] Title: "Inside a TokyLabs MakerSpace Session: 7 Moments That Change How Kids Think"
+[2026-06-21] Notion Newsletter Idea used: n/a (all Newsletter Ideas marked Used? = YES)
+[2026-06-21] Instagram Idea used: n/a (RSS feeds returned 403 Forbidden; no Approved Instagram Ideas found in Notion)
+[2026-06-21] Ebook section used: n/a (ebook at /Users/eduardo/Documents/... not accessible in remote environment)
+[2026-06-21] Status: DRAFT SAVED ⚠️ — Selldone API blocked (api.selldone.com not in network egress allowlist). Draft saved to ~/Documents/tokylabs-drafts/2026-06-21.md. Needs manual publish or egress rule addition.
