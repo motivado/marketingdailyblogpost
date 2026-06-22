@@ -1,0 +1,6 @@
+[2026-06-22] Source: Notion Newsletter Idea (fallback — RSS feeds blocked by network egress, ebook path not accessible in remote environment)
+[2026-06-22] Title: "What Wall-E, Baymax, and R2-D2 Are Really Teaching Your Kids"
+[2026-06-22] Notion Newsletter Idea used: "Famous Robots in Movies and Cartoons: Lighthearted look at Wall-E, Baymax, or R2-D2." (ID: 26bf65d7-fc20-804c-b5f4-c3da80c82be6)
+[2026-06-22] Ebook section used: n/a
+[2026-06-22] Status: DRAFT SAVED — Selldone API blocked (api.selldone.com not in network egress allowlist). Draft at /home/user/tokylabs-drafts/2026-06-22.md
+[2026-06-22] Action needed: (1) Add api.selldone.com to egress allowlist OR publish manually from draft. (2) Mark Notion idea as Used? = true.
