@@ -1,0 +1,8 @@
+[2026-06-28] Source: Notion Social Media Ideas — "precious plastic" (In progress)
+[2026-06-28] Title: "From Waste to Wonder: Why Teaching Kids to Build With Everyday Materials Is the Best STEM Lesson You'll Ever Give"
+[2026-06-28] Notion Newsletter Idea used: n/a (all newsletter ideas already marked Used)
+[2026-06-28] Instagram Ideas checked: precious plastic (In progress), May 4th (Draft Text Review), May 7th (Draft Text Review), April 29th (Draft Image Review) — none Approved
+[2026-06-28] Ebook section used: n/a (ebook path /Users/eduardo/... not accessible in remote environment)
+[2026-06-28] RSS Feeds: BLOCKED — api.selldone.com:443 and rss.app:443 both rejected by session egress policy (403 from proxy)
+[2026-06-28] Status: FAILED TO PUBLISH ❌ — Article draft saved to ~/Documents/tokylabs-drafts/2026-06-28.md
+[2026-06-28] Action needed: Publish draft manually or allow api.selldone.com in session egress policy
