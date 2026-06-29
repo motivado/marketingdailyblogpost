@@ -1,0 +1,6 @@
+[2026-06-29] Source: Notion Social Media Ideas — content direction "Why critical thinking matters" (Status: Draft Image Review)
+[2026-06-29] Title: "Why Critical Thinking Is the Skill Your Child Needs Most in an AI World"
+[2026-06-29] Notion Newsletter Idea used: n/a (all Newsletter Ideas marked Used?=YES; no Approved Instagram Ideas found)
+[2026-06-29] Ebook section used: n/a (ebook path unavailable in remote environment)
+[2026-06-29] Status: FAILED — api.selldone.com blocked by egress policy (proxy 403). Draft saved to ~/Documents/tokylabs-drafts/2026-06-29.md
+[2026-06-29] Action required: (1) Allow api.selldone.com in session egress policy, (2) Allow rss.app in session egress policy, (3) Manually publish draft or re-run with access unblocked
