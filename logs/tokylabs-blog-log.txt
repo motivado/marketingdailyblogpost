@@ -1,0 +1,6 @@
+[2026-06-30] Source: Notion Newsletter Idea (Instagram RSS blocked by proxy; ebook inaccessible in remote env)
+[2026-06-30] Title: "What Wall-E, Baymax, and R2-D2 Teach Kids About Real Robotics"
+[2026-06-30] Notion Newsletter Idea used: "Famous Robots in Movies and Cartoons: Lighthearted look at Wall-E, Baymax, or R2-D2." (Trivia/Cool Stuff — Used? NOT yet marked true — blocked)
+[2026-06-30] Ebook section used: n/a
+[2026-06-30] Status: BLOCKED ❌ — api.selldone.com:443 denied by egress proxy policy. Draft saved to ~/Documents/tokylabs-drafts/2026-06-30.md
+[2026-06-30] Action required: Publish draft manually at https://tokylabs.com/blog, then mark Notion idea Used?=true (page: 26bf65d7-fc20-804c-b5f4-c3da80c82be6)
