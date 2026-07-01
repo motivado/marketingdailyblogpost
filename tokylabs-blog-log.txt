@@ -1,0 +1,8 @@
+[2026-07-01] Source: Notion Instagram Idea — "Why creativity is important in the AI world" (Status: Draft Image Review)
+[2026-07-01] Title: "Why Creativity Is the Skill Your Child Needs Most in the Age of AI"
+[2026-07-01] Notion Instagram Idea used: Instagram Post - April 29th (creativity in AI world)
+[2026-07-01] Notion Newsletter Idea used: n/a (all ideas in database already marked Used? = true)
+[2026-07-01] Ebook section used: n/a (ebook file inaccessible — stored on user's local Mac at /Users/eduardo/Documents/)
+[2026-07-01] Status: DRAFT SAVED — NOT PUBLISHED ❌
+[2026-07-01] Reason: Proxy blocks api.selldone.com:443 (egress policy denial). Draft saved to drafts/2026-07-01.md
+[2026-07-01] RSS Feeds: BLOCKED — proxy denies rss.app:443 (could not check for new Instagram posts)
