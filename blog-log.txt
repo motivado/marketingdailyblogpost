@@ -1,0 +1,6 @@
+[2026-07-02] Source: Notion Instagram Idea — "Instagram Post - April 30th" (Draft Image Review) / topic: Why Critical Thinking Is the Most Important Skill for Your Child in the Age of AI
+[2026-07-02] Title: "Why Critical Thinking Is the Most Important Skill for Your Child in the Age of AI"
+[2026-07-02] Notion Newsletter Idea used: n/a (all ideas already marked Used in Notion)
+[2026-07-02] Ebook section used: n/a (ebook path is local Mac path, not accessible in remote container)
+[2026-07-02] Status: FAILED TO PUBLISH ❌ — Network policy blocks api.selldone.com (403 CONNECT rejected). Draft saved to ~/Documents/tokylabs-drafts/2026-07-02.md
+[2026-07-02] Note: rss.app also blocked — could not check for new Instagram posts today.
