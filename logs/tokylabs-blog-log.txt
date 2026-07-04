@@ -1,0 +1,7 @@
+[2026-07-04] Source: Notion fallback (no Instagram — RSS feed blocked by proxy; no new posts confirmed)
+[2026-07-04] Title: "Why Creativity Is the Most Important Skill We Can Give Our Children Today"
+[2026-07-04] Notion Instagram Idea used: "Creative kids grow into confident thinkers" (Instagram Post - April 29th, Status: Draft Image Review)
+[2026-07-04] Notion Newsletter Idea used: n/a (all marked Used? = true; no unused entries found)
+[2026-07-04] Ebook section used: n/a (ebook at /Users/eduardo/Documents/Claude/Projects/Marketing Team/_Tokylabs_Ebook (1).pdf not accessible in remote environment)
+[2026-07-04] Status: FAILED ❌ — api.selldone.com blocked by proxy (connect_rejected, policy denial). Draft saved to ~/Documents/tokylabs-drafts/2026-07-04.md
+[2026-07-04] NOTE: RSS feeds (rss.app) and Selldone API (api.selldone.com) are both blocked by the remote execution environment's network policy. To fix: add these hosts to the allowed list in the environment network policy, or run this routine from a local environment with full outbound access.
