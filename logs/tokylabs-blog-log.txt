@@ -1,0 +1,5 @@
+[2026-07-08] Source: Notion Newsletter Idea / No Instagram post (RSS feed blocked by proxy)
+[2026-07-08] Title: "What Wall-E, Baymax, and R2-D2 Teach Kids About Real Robotics"
+[2026-07-08] Notion Newsletter Idea used: "Famous Robots in Movies and Cartoons: Lighthearted look at Wall-E, Baymax, or R2-D2." (Trivia - Cool Stuff)
+[2026-07-08] Ebook section used: n/a
+[2026-07-08] Status: FAILED ❌ — api.selldone.com blocked by environment proxy. Draft saved to ~/Documents/tokylabs-drafts/2026-07-08.md. Notion idea NOT marked used (publish failed). RSS feeds (rss.app) also blocked.
