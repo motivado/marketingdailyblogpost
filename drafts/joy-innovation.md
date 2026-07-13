@@ -1,0 +1,25 @@
+---
+title: 'Innovation Doesn''t Start With Ideas — It Starts With Joy'
+posted: false
+body_format: markdown
+origin_date: 2026-05-04
+origin_source: 'Notion Instagram Plan (MAY 4th) + Newsletter Idea "Straw & Maze Marble Game'
+---
+
+When was the last time you watched a child tackle a challenge they couldn't stop thinking about — not because they had to, but because they genuinely *wanted* to? That feeling isn't a distraction from learning. Research in child development and education increasingly points to one surprising truth: joy isn't a reward for good learning — it's the **engine that powers innovation itself**.
+
+## Why Joy Is the Foundation of Learning
+
+When children experience joy in what they do, they enter a state of deep intrinsic motivation. They persist longer through difficulty, take more creative risks, and bounce back faster from failure. Educators sometimes call this the **"Super Mario Effect"** — in a video game, no child quits after the first failed level, because failure is framed as part of the journey, not a verdict. The same shift can happen in any classroom or home that prioritises joy over pressure.
+
+Joy also unlocks curiosity, and curiosity is the real skill we want children to carry into adulthood. When a young person is genuinely captivated by a problem, they don't just find an answer — they ask better questions. And in a world where AI can instantly retrieve any fact, the ability to ask the right question is becoming one of the most valuable human skills of all.
+
+## Hands-On Making: Where Joy Meets Learning
+
+One of the most reliable ways to ignite that joy is through hands-on making. Something as simple as the classic **Straw & Maze Marble Game** — where kids use cardboard, straws, and marbles to construct a maze and guide a marble through custom pathways — demonstrates this beautifully. Children design, test, fail, redesign, and celebrate when the marble finally rolls where they intended. In the space of one afternoon, they practise spatial thinking, engineering iteration, and perseverance, all while having a genuinely good time.
+
+Parents and educators can nurture this at home or in the classroom by offering open-ended challenges ("Can you build something that moves?"), celebrating the process over the product, and framing setbacks as interesting data rather than failures. Keep the materials simple and accessible; the ceiling on what children can imagine is already high enough.
+
+## Building the Next Generation of Creators
+
+At TokyLabs, joy is not an add-on to learning — it is the design principle behind everything they do. Through their after-school robotics programmes at international schools across Bali, TokyLabs places children inside a community of curious peers and gives them open-ended STEAM challenges that invite genuine exploration. Whether students are discovering electronics for the first time with the Tokymini kit or programming a Tokymaker board to bring a robot to life, the experience is built so that children leave each session feeling the unmistakeable buzz of having *created* something. Children who learn to love creating become the innovators the world needs most.
