@@ -6,6 +6,7 @@ a blog article to the TokyLabs Selldone shop.
 """
 
 import os
+import re
 import json
 import datetime
 import pathlib
@@ -21,6 +22,19 @@ RSS_TOKYLABS = os.environ["RSS_FEED_TOKYLABS"]
 RSS_TOKYLABS_BALI = os.environ["RSS_FEED_TOKYLABS_BALI"]
 NOTION_TOKEN = os.environ["NOTION_TOKEN"]
 LANGUAGE = os.environ.get("LANGUAGE", "English")
+
+# Canonical ebook copy lives in the repo (cloned fresh on every run) so it's
+# reachable from the cloud sandbox. EBOOK_PATH can override this for local /
+# desktop runs, but if it points somewhere that doesn't exist on this machine
+# (e.g. a stale local Mac path left over in an env var), fall back to the repo
+# copy instead of failing.
+_REPO_EBOOK_PATH = pathlib.Path(__file__).parent / "content" / "tokylabs_ebook.md"
+_env_ebook_path = os.environ.get("EBOOK_PATH")
+EBOOK_PATH = (
+    pathlib.Path(_env_ebook_path)
+    if _env_ebook_path and pathlib.Path(_env_ebook_path).exists()
+    else _REPO_EBOOK_PATH
+)
 
 NEWSLETTER_DB = "261f65d7-fc20-8038-9b30-000b3cb15a1d"
 INSTAGRAM_DB = "333f65d7-fc20-8056-83ba-000bc4b9f776"
@@ -107,6 +121,41 @@ def fetch_new_posts(rss_url: str) -> list[dict]:
                 "published": pub.isoformat(),
             })
     return new
+
+
+# ── Step 5 helper: Ebook sections ────────────────────────────────────────────
+def load_ebook_sections() -> list[dict]:
+    """Parse the TokyLabs ebook (content/tokylabs_ebook.md) into chapter sections.
+
+    Only the numbered chapters are usable article source material; the summary,
+    references, testimonials, and author bio are skipped.
+    """
+    if not EBOOK_PATH.exists():
+        return []
+
+    text = EBOOK_PATH.read_text()
+    # Split on level-2 "## Chapter N: ..." headers.
+    chunks = re.split(r"\n(?=## .*Chapter \d)", text)
+    sections = []
+    for chunk in chunks:
+        header_match = re.match(r"## \**Chapter (\d+)[^\n]*", chunk.strip())
+        if not header_match:
+            continue
+        title_line = chunk.strip().splitlines()[0]
+        title = re.sub(r"[#*:]", "", title_line).strip()
+        body = "\n".join(chunk.strip().splitlines()[1:]).strip()
+        sections.append({"number": header_match.group(1), "title": title, "body": body})
+    return sections
+
+
+def pick_unused_ebook_section(sections: list[dict], log_text: str) -> dict | None:
+    """Return the first chapter whose title hasn't already appeared as a used
+    ebook section in the run log, or None if every chapter has been used."""
+    for section in sections:
+        marker = f"Ebook section used: \"{section['title']}\""
+        if marker not in log_text:
+            return section
+    return None
 
 
 # ── Step 4: Write article from Instagram post ─────────────────────────────────
@@ -207,6 +256,32 @@ def write_article_from_notion(idea: dict) -> tuple[str, str]:
     return title, body
 
 
+# ── Step 5: Write article from an ebook chapter ──────────────────────────────
+def write_article_from_ebook_section(section: dict) -> tuple[str, str]:
+    """Return (title, body_html) built from an unused ebook chapter."""
+    title = f"{section['title']}: What It Means for Your Child"
+
+    # Take the chapter's opening paragraphs as the seed, trimmed to a sensible
+    # blog length, then wrap with the standard hook / tips / TokyLabs mention.
+    paragraphs = [p.strip() for p in section["body"].split("\n") if p.strip() and not p.strip().startswith("#")]
+    excerpt = " ".join(paragraphs[:4])[:900]
+
+    body = textwrap.dedent(f"""
+        <p>{excerpt}</p>
+
+        <h2>What This Means for Parents and Teachers</h2>
+        <p>These shifts aren't abstract &mdash; they change what's worth prioritizing in a child's education right now. The children who thrive won't necessarily be the ones who memorize the most facts, but the ones who've had real practice building, testing, and rethinking their own ideas.</p>
+
+        <h2>Practical Ways to Apply This Today</h2>
+        <p>Start small: give children open-ended challenges instead of step-by-step instructions, celebrate the process of iterating over getting it right the first time, and treat mistakes as data rather than failure. These habits compound quickly when practiced consistently, whether at home or in the classroom.</p>
+
+        <h2>How TokyLabs Brings This to Life</h2>
+        <p>This is exactly the philosophy behind TokyLabs' programs. Through hands-on Tokymaker and screenless Tokymini kits, after-school robotics activities, and our STEM teacher certification track, we help children &mdash; and the adults who teach them &mdash; build the confidence that comes from creating something real.</p>
+    """).strip()
+
+    return title, body
+
+
 # ── Step 6: Publish to Selldone ───────────────────────────────────────────────
 def publish_to_selldone(title: str, body_html: str, image_url: str | None = None) -> dict:
     payload: dict = {"title": title, "body": body_html, "published": True}
@@ -256,6 +331,7 @@ def main() -> None:
     image_url: str | None = None
     source_label: str
     notion_idea_used: dict | None = None
+    ebook_section_used: dict | None = None
 
     if new_posts:
         # Step 3 & 4: Use most recent Instagram post
@@ -280,17 +356,26 @@ def main() -> None:
         if approved_ig:
             topic_idea = {"idea": approved_ig[0]["name"], "section": "Instagram Idea"}
             source_label = f"Notion Instagram Idea (Approved): {approved_ig[0]['name']}"
+            title, body_html = write_article_from_notion(topic_idea)
         elif newsletter_ideas:
             # Prefer non-empty / rich ideas
             swarmathon = next((i for i in newsletter_ideas if "swarm" in i["idea"].lower() or "nasa" in i["idea"].lower()), None)
             topic_idea = swarmathon or newsletter_ideas[0]
             notion_idea_used = topic_idea
             source_label = f"Notion Newsletter Idea ({topic_idea['section']})"
+            title, body_html = write_article_from_notion(topic_idea)
         else:
-            log("No unused Notion ideas available. Skipping today.")
-            return
-
-        title, body_html = write_article_from_notion(topic_idea)
+            # Priority 3: both Notion sources are exhausted — fall back to an
+            # unused ebook chapter instead of skipping the day entirely.
+            log_text = LOG_FILE.read_text() if LOG_FILE.exists() else ""
+            ebook_sections = load_ebook_sections()
+            section = pick_unused_ebook_section(ebook_sections, log_text)
+            if section is None:
+                log("No unused Notion ideas or ebook sections available. Skipping today.")
+                return
+            ebook_section_used = section
+            source_label = f"TokyLabs Ebook ({section['title']})"
+            title, body_html = write_article_from_ebook_section(section)
 
     # Step 6: Publish
     try:
@@ -300,7 +385,12 @@ def main() -> None:
         log(f"Title: \"{title}\"")
         if notion_idea_used:
             log(f"Notion Newsletter Idea used: \"{notion_idea_used.get('section', '')} - {notion_idea_used.get('idea', '')}\"")
-        log("Ebook section used: n/a")
+        else:
+            log("Notion Newsletter Idea used: n/a")
+        if ebook_section_used:
+            log(f"Ebook section used: \"{ebook_section_used['title']}\"")
+        else:
+            log("Ebook section used: n/a")
         log(f"Status: Published ✅  |  Blog ID: {result.get('id', 'unknown')}")
     except Exception as exc:
         log(f"Source: {source_label}")
