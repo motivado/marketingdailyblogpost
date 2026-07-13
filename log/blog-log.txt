@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-07-13] Source: Draft queue — drafts/mini-catapult.md (origin_date: 2026-05-01)
+[2026-07-13] Title: "Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click" | Selldone article ID: n/a
+[2026-07-13] Notion Newsletter Idea used: Catapult Cannon (Fam. Project)
+[2026-07-13] Ebook section used: n/a
+[2026-07-13] Status: Failed ❌ — SELLDONE_TOKEN not set in environment secrets (API returned 302 redirect to /login). Draft retained as drafts/mini-catapult.md (posted: false) for next run once token is configured.
