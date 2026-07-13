@@ -98,9 +98,11 @@ as drafts in `drafts/` in this repo.)
 ### STEP 5 — PUBLISH FROM DRAFT QUEUE, OR WRITE FROM EBOOK + NOTION (no new Instagram post)
 
 **First, check the draft queue.** `drafts/*.md` are ready-to-publish articles
-with YAML front matter (`title`, `posted`). If any draft has `posted: false`,
-publish it as-is (the file body below the front matter is the article HTML) —
-a finished article beats generating a new one. After publishing, set
+with YAML front matter (`title`, `posted`, `body_format`, `origin_date`). If
+any draft has `posted: false`, publish the one with the oldest `origin_date` —
+a finished article beats generating a new one. The file body below the front
+matter is the article content: if `body_format: html` publish as-is; if
+`body_format: markdown` convert it to HTML first. After publishing, set
 `posted: true`, add `posted_date`, `selldone_article_id`, and `slug` to its
 front matter, and commit.
 
