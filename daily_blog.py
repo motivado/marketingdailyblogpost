@@ -29,7 +29,8 @@ LOG_FILE = pathlib.Path.home() / "Documents" / "tokylabs-blog-log.txt"
 DRAFTS_DIR = pathlib.Path.home() / "Documents" / "tokylabs-drafts"
 DRAFTS_DIR.mkdir(parents=True, exist_ok=True)
 
-SELLDONE_API = f"https://api.selldone.com/shops/{SELLDONE_SHOP_ID}/blogs"
+SELLDONE_API = "https://api.selldone.com/article/shop-blog/edit"
+SELLDONE_BLOG_PARENT_ID = int(os.environ.get("SELLDONE_BLOG_PARENT_ID", "28661"))
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -209,7 +210,14 @@ def write_article_from_notion(idea: dict) -> tuple[str, str]:
 
 # ── Step 6: Publish to Selldone ───────────────────────────────────────────────
 def publish_to_selldone(title: str, body_html: str, image_url: str | None = None) -> dict:
-    payload: dict = {"title": title, "body": body_html, "published": True}
+    payload: dict = {
+        "shop_id": int(SELLDONE_SHOP_ID),
+        "parent_id": SELLDONE_BLOG_PARENT_ID,
+        "parent_type": "shop-blog",
+        "title": title,
+        "body": body_html,
+        "published": True,
+    }
     if image_url:
         payload["image"] = image_url
 
