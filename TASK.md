@@ -95,12 +95,21 @@ as drafts in `drafts/` in this repo.)
 * **Length**: 300–500 words. **Image**: the Instagram image from RSS; omit if
   unavailable — never fabricate.
 
-### STEP 5 — WRITE ARTICLE FROM EBOOK + NOTION (no new Instagram post)
+### STEP 5 — PUBLISH FROM DRAFT QUEUE, OR WRITE FROM EBOOK + NOTION (no new Instagram post)
+
+**First, check the draft queue.** `drafts/*.md` are ready-to-publish articles
+with YAML front matter (`title`, `posted`). If any draft has `posted: false`,
+publish it as-is (the file body below the front matter is the article HTML) —
+a finished article beats generating a new one. After publishing, set
+`posted: true`, add `posted_date`, `selldone_article_id`, and `slug` to its
+front matter, and commit.
+
+If every draft is already `posted: true`, write a new article instead:
 
 ⚠️ The ebook must live at `ebook/tokylabs-ebook.pdf` **in this repo** — the old
 config pointed at a macOS path (`/Users/eduardo/...`) which does not exist in
 the cloud container. Until the PDF is committed, skip the ebook and use Notion
-ideas or the pre-written articles in `daily_blog.py`.
+ideas.
 
 Topic priority:
 1. Approved Instagram Idea in Notion → use as topic angle, find matching ebook section
