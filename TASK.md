@@ -119,6 +119,30 @@ Topic priority:
 
 Same structure as STEP 4: Hook → Learning/Tips → TokyLabs mention.
 
+### STEP 5.5 — COVER IMAGE (for any article that has none)
+
+Articles from Instagram already have a photo (Step 4). For all others (draft
+queue, Notion, ebook), generate a cover with the **Canva MCP connector**:
+
+1. `generate-design` with `design_type: "youtube_thumbnail"` (1280×720, good
+   blog-cover ratio). Prompt: describe the article topic visually — warm,
+   bright flat-illustration style for a parenting/education blog; **no readable
+   text or logos in the image**. If the draft's front matter already has a
+   `canva_design_id`, skip generation and reuse it.
+2. Pick the first candidate → `create-design-from-candidate` → save the
+   returned design id into the draft's front matter as `canva_design_id`.
+3. `get-export-formats`, then `export-design` as PNG.
+4. Download the export URL **immediately** (it is a signed link that expires in
+   hours) and save to `images/covers/<slug>.png` in this repo. Commit + push.
+   ⚠️ Requires `*.canva.com` in the environment network allowlist.
+5. Use the permanent URL in the article's `image` field:
+   `https://raw.githubusercontent.com/motivado/marketingdailyblogpost/claude/trusting-cannon-fgGop/images/covers/<slug>.png`
+   (repo is public, so this URL is visible to blog readers).
+
+**Never block publishing on images**: if Canva is unavailable or the download
+fails (e.g. egress still blocked), publish the article without an image and
+note it in the log.
+
 ### STEP 6 — PUBLISH TO SELLDONE
 
 **Verified working endpoint** (the old `POST /shops/2362/blogs` returns 404):
