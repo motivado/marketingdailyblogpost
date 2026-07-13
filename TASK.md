@@ -108,10 +108,9 @@ front matter, and commit.
 
 If every draft is already `posted: true`, write a new article instead:
 
-⚠️ The ebook must live at `ebook/tokylabs-ebook.pdf` **in this repo** — the old
-config pointed at a macOS path (`/Users/eduardo/...`) which does not exist in
-the cloud container. Until the PDF is committed, skip the ebook and use Notion
-ideas.
+The ebook is in this repo: **`content/tokylabs_ebook.md`** (markdown — use
+this one; it's searchable and chapter-structured). The original PDFs are in
+`ebook/` for reference.
 
 Topic priority:
 1. Approved Instagram Idea in Notion → use as topic angle, find matching ebook section
@@ -175,9 +174,11 @@ this is the only storage that survives between daily runs:
 
 ## KNOWN OPEN ITEMS (need a human once)
 
-1. **rss.app**: log in and recreate both Instagram feeds so they're saved to the
-   account; put the `https://rss.app/feeds/<ID>.xml` URLs into the environment config.
-2. **Notion content**: all Newsletter Ideas are marked Used — add fresh ideas.
-3. **Ebook**: commit the PDF to `ebook/tokylabs-ebook.pdf` in this repo.
-4. **Secrets**: move SELLDONE_TOKEN out of the prompt text and into the
-   environment's secret variables.
+1. ~~rss.app feeds~~ ✅ Fixed 2026-07-13: saved feeds at
+   `https://rss.app/feeds/ZOW2f9aPjd0Eu1F1.xml` (@tokylabs) and
+   `https://rss.app/feeds/dtcuQF1bcNy66AOd.xml` (@tokylabs.bali).
+2. ~~Notion content~~ ✅ Fixed 2026-07-13: 8 fresh Newsletter Ideas added.
+3. ~~Ebook~~ ✅ Fixed 2026-07-13: `content/tokylabs_ebook.md` (+ PDFs in `ebook/`).
+4. **Secrets**: still pending — regenerate SELLDONE_TOKEN in Selldone (the old
+   one appeared in plaintext prompts) and store it as an environment secret,
+   never in the prompt text.
