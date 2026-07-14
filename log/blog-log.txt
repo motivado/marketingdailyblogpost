@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-07-14] Source: Draft queue — drafts/mini-catapult.md (origin_date: 2026-05-01, Notion Newsletter Idea — Catapult Cannon, Fam. Project)
+[2026-07-14] Title: "Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click" | Selldone article ID: n/a
+[2026-07-14] Notion Newsletter Idea used: n/a (article already written from Catapult Cannon idea)
+[2026-07-14] Ebook section used: n/a
+[2026-07-14] Canva cover: design DAHPTajZOp4 exported but download blocked by egress policy (*.canva.com not in allowlist)
+[2026-07-14] Status: Failed ❌ — SELLDONE_TOKEN not set as environment secret (API returned 302 redirect to /login). ACTION NEEDED: set SELLDONE_TOKEN in Claude Code environment secrets and re-run.
