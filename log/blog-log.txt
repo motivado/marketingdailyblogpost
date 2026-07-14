@@ -5,7 +5,7 @@
 [2026-07-13] Status: Published ✅
 
 [2026-07-14] Source: Draft queue (drafts/mini-catapult.md, origin_date: 2026-05-01) — no new Instagram posts today or yesterday
-[2026-07-14] Title: "Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click" | Selldone article ID: 738887 | slug: build-a-mini-catapult-with-your-kids-the-stem-project-that-makes-physics-click
+[2026-07-14] Title: "Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click" | Selldone article ID: 738888 | slug: build-a-mini-catapult-with-your-kids-the-stem-project-that-makes-physics-click
 [2026-07-14] Notion Newsletter Idea used: Catapult Cannon (Fam. Project) — already incorporated in draft
 [2026-07-14] Ebook section used: n/a
 [2026-07-14] Cover image: images/covers/mini-catapult.png (Canva design DAHPTajZOp4, exported and committed)

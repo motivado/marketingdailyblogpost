@@ -157,8 +157,9 @@ Content-Type: application/json
   "parent_type": "shop-blog",
   "parent_id": 28661,
   "title": "[article title]",
+  "description": "[1–2 sentence excerpt for meta description and social previews]",
   "body": "[article body in HTML]",
-  "image": "[image URL if available]",
+  "image": "[image URL — required, see §6.1.2]",
   "published": true
 }
 ```
@@ -171,6 +172,25 @@ Notes:
 * Only `api.selldone.com` is reachable from the sandbox; `xapi.selldone.com`
   and `backoffice.selldone.com` are blocked by the network policy — don't try them.
 * On error: save the draft to `drafts/YYYY-MM-DD.md` in this repo and log the failure.
+* **The edit endpoint always creates a new article** — it does not update an
+  existing one, even if you pass an `id` field in the body. To correct a
+  published article, delete it first (`DELETE https://api.selldone.com/article/shop-blog/{id}`)
+  and re-publish. Log the final ID.
+
+#### §6.1.2 — Per-post publish checklist (verified 2026-07-14)
+
+Two gaps found during QA that must be checked on **every** article before the
+API call is made:
+
+- [ ] **Custom meta description**: Always include `"description"` in the API
+  payload — 1–2 sentences summarising the post (≤ 160 characters ideally).
+  Without it, Selldone inherits the shop-wide fallback ("Be an inventor!
+  Coding and Electronics kits…"), which appears as the preview snippet on
+  Google, LinkedIn, and WhatsApp for every post.
+- [ ] **Cover image set**: Always include `"image"` with a live, public URL.
+  This becomes the `og:image` for social card previews (LinkedIn, WhatsApp,
+  iMessage, etc.). If no Instagram photo is available, generate one with
+  Canva (STEP 5.5) before publishing. Never publish without an image.
 
 ### STEP 7 — LOG THE RESULT (in the repo, then push)
 
