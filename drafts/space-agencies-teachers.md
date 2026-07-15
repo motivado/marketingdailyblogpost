@@ -4,7 +4,7 @@ posted: true
 posted_date: '2026-07-15'
 selldone_article_id: 738968
 slug: what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom
-canva_design_id: DAHPaN6uBDM
+cover_style: 'Mono Line (STYLE_GUIDE.md) — hand-drawn SVG, source in images/covers/*.src.html'
 body_format: html
 origin_date: 2026-05-06
 ---

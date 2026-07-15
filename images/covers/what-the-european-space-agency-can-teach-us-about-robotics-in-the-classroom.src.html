@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 0; background: #F7F4EC; }
+  #stage { width: 1280px; height: 720px; }
+</style>
+</head>
+<body>
+<div id="stage">
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Paper grain for the off-white ground -->
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="noise"/>
+      <feColorMatrix in="noise" type="matrix"
+        values="0 0 0 0 0.55  0 0 0 0 0.52  0 0 0 0 0.47  0 0 0 0.035 0"/>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+
+    <!-- Slight hand-drawn wobble for the indigo contours -->
+    <filter id="wobble" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="7" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="7" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <!-- Rougher wobble for the cyan brush stroke -->
+    <filter id="brush" x="-10%" y="-40%" width="120%" height="180%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035 0.12" numOctaves="3" seed="11" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="16" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <!-- Crayon texture for the magenta fill -->
+    <filter id="crayon" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.18" numOctaves="3" seed="4" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="10" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="2" seed="9" result="grain"/>
+      <feColorMatrix in="grain" type="matrix"
+        values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.12 0" result="grainA"/>
+      <feComposite operator="in" in="grainA" in2="d" result="lights"/>
+      <feMerge>
+        <feMergeNode in="d"/>
+        <feMergeNode in="lights"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- BACKGROUND: plain, textured off-white -->
+  <rect width="1280" height="720" fill="#F7F4EC" filter="url(#paper)"/>
+
+  <!-- ENVIRONMENT: one single broad cyan brush stroke (floor line) -->
+  <g filter="url(#brush)">
+    <path d="M 150 610 Q 640 596 1130 606"
+          stroke="#41C5EE" stroke-width="30" stroke-linecap="round" fill="none" opacity="0.92"/>
+  </g>
+
+  <!-- ACCENT: the rover body — one textured magenta crayon fill -->
+  <g filter="url(#crayon)">
+    <path d="M 618 512 L 762 508 L 768 566 L 614 570 Z" fill="#ff0082"/>
+  </g>
+
+  <!-- SUBJECT + OBJECT: indigo continuous contours -->
+  <g stroke="#30197C" stroke-width="6" fill="none"
+     stroke-linecap="round" stroke-linejoin="round" filter="url(#wobble)">
+
+    <!-- TEACHER: kneeling, one flowing line — head loop, back, extended arm, folded legs -->
+    <path d="M 430 285
+             c -34 -6 -52 30 -30 54
+             c 20 22 56 12 58 -16
+             c 2 -24 -18 -38 -28 -38
+             m 6 56
+             c -6 40 -10 78 -14 112
+             c -2 20 -6 40 -24 56
+             c -20 18 -34 34 -36 58
+             c -1 14 8 20 22 18
+             c 26 -4 44 -22 58 -40
+             m -6 -92
+             c 30 14 74 34 118 44
+             c 20 5 40 8 58 9" />
+    <!-- teacher's folded lower leg -->
+    <path d="M 402 585 c 30 6 62 8 92 4" />
+
+    <!-- ROVER: outline over the magenta body, wheels, mast + camera head -->
+    <path d="M 618 512 L 762 508 L 768 566 L 614 570 Z" />
+    <circle cx="646" cy="586" r="22"/>
+    <circle cx="738" cy="584" r="22"/>
+    <path d="M 692 508 L 690 462" />
+    <path d="M 672 452 h 40 v 14 h -40 z" />
+
+    <!-- CHILD: standing to the right, one flowing line, leaning in with curiosity -->
+    <path d="M 880 330
+             c -28 -4 -42 26 -24 44
+             c 17 17 46 8 47 -14
+             c 1 -19 -14 -30 -23 -30
+             m 2 46
+             c -10 32 -18 66 -22 100
+             c -3 26 -4 52 -4 76
+             m 4 -142
+             c -18 16 -38 30 -60 38
+             m 58 -32
+             c 20 10 42 16 62 18
+             m -60 118
+             c -8 34 -12 52 -14 66
+             m 12 -66
+             c 10 32 16 50 20 66" />
+  </g>
+</svg>
+</div>
+</body>
+</html>

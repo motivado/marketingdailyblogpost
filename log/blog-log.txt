@@ -11,3 +11,4 @@
 [2026-07-15] Canva cover image: DAHPaN6uBDM → images/covers/what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom.png
 [2026-07-15] Status: Published ✅
 [2026-07-15] Note: RSS feeds had no new posts (tokylabs latest: 2026-02-04, tokylabs.bali latest: 2026-07-10). mini-catapult.md draft retroactively marked posted:true (article 738888 already live).
+[2026-07-15] Cover image for article 738968 REDONE in new Mono Line style (STYLE_GUIDE.md): hand-drawn SVG rendered to PNG, same file path so live article URL unchanged. Canva generate-design could not produce the line-art style (returned photo templates with text) — use SVG rendering for Mono Line covers going forward.
