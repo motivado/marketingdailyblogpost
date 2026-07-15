@@ -3,3 +3,11 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-07-15] Source: Draft queue — drafts/space-agencies-teachers.md (origin_date: 2026-05-06)
+[2026-07-15] Title: "What the European Space Agency Can Teach Us About Robotics in the Classroom" | Selldone article ID: 738968 | slug: what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom
+[2026-07-15] Notion Newsletter Idea used: n/a
+[2026-07-15] Ebook section used: n/a
+[2026-07-15] Canva cover image: DAHPaN6uBDM → images/covers/what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom.png
+[2026-07-15] Status: Published ✅
+[2026-07-15] Note: RSS feeds had no new posts (tokylabs latest: 2026-02-04, tokylabs.bali latest: 2026-07-10). mini-catapult.md draft retroactively marked posted:true (article 738888 already live).
