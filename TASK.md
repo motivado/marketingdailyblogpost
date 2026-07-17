@@ -122,26 +122,30 @@ Same structure as STEP 4: Hook → Learning/Tips → TokyLabs mention.
 ### STEP 5.5 — COVER IMAGE (for any article that has none)
 
 Articles from Instagram already have a photo (Step 4). For all others (draft
-queue, Notion, ebook), generate a cover with the **Canva MCP connector**:
+queue, Notion, ebook), generate a cover with **Nano Banana Pro** (Google Gemini
+image model). This is the approved house style — the "Mono Line" single-line
+doodle look. **Do not use Canva for covers** (it can't produce this style).
 
-1. `generate-design` with `design_type: "youtube_thumbnail"` (1280×720, good
-   blog-cover ratio). Prompt: describe the article topic visually — warm,
-   bright flat-illustration style for a parenting/education blog; **no readable
-   text or logos in the image**. If the draft's front matter already has a
-   `canva_design_id`, skip generation and reuse it.
-2. Pick the first candidate → `create-design-from-candidate` → save the
-   returned design id into the draft's front matter as `canva_design_id`.
-3. `get-export-formats`, then `export-design` as PNG.
-4. Download the export URL **immediately** (it is a signed link that expires in
-   hours) and save to `images/covers/<slug>.png` in this repo. Commit + push.
-   ⚠️ Requires `*.canva.com` in the environment network allowlist.
-5. Use the permanent URL in the article's `image` field:
-   `https://raw.githubusercontent.com/motivado/marketingdailyblogpost/claude/trusting-cannon-fgGop/images/covers/<slug>.png`
-   (repo is public, so this URL is visible to blog readers).
+The full recipe, style prompt, and palette rules live in
+**`content/cover-image-prompt.md`** — read it and follow it exactly. A ready
+generator is in **`scripts_nb_cover_gen.py`**. In short:
 
-**Never block publishing on images**: if Canva is unavailable or the download
-fails (e.g. egress still blocked), publish the article without an image and
-note it in the log.
+1. Model `gemini-3-pro-image`; auth via `GEMINI_API_KEY` (environment secret —
+   never in repo/logs/commits). Endpoint:
+   `POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-pro-image:generateContent?key=$GEMINI_API_KEY`
+   with `generationConfig.responseModalities:["IMAGE"]` and
+   `imageConfig.aspectRatio:"16:9"`.
+2. Fill the three `{SUBJECT}`/`{ACCENT}`/`{GROUND}` variables from the article's
+   topic. One clear action, 1–3 figures, exactly one magenta accent object.
+3. Output is JPEG — save to `images/covers/<slug>.jpg`. Commit + push **before**
+   referencing it, so the raw URL resolves.
+4. Use the permanent URL in the article's `image` field AND embed it as a header
+   `<figure><img></figure>` at the very top of the article body (see STEP 6):
+   `https://raw.githubusercontent.com/motivado/marketingdailyblogpost/<this-branch>/images/covers/<slug>.jpg`
+   (repo is public, so readers can see it).
+
+**Never block publishing on images**: if Nano Banana is unavailable (missing key,
+egress blocked), publish without an image and note it in the log.
 
 ### STEP 6 — PUBLISH TO SELLDONE
 
@@ -171,6 +175,19 @@ Notes:
 * Only `api.selldone.com` is reachable from the sandbox; `xapi.selldone.com`
   and `backoffice.selldone.com` are blocked by the network policy — don't try them.
 * On error: save the draft to `drafts/YYYY-MM-DD.md` in this repo and log the failure.
+
+**Editing an EXISTING article (verified 2026-07-17).** The same `edit` endpoint
+updates in place **only if you pass `"article_id": <id>`** in the body (the field
+is `article_id`, NOT `id` — passing `id` is ignored and creates a duplicate).
+Send the full record you want (title, body, image, published) plus `article_id`,
+`shop_id`, `parent_type`, and the article's existing `parent_id`. Response `id`
+will equal the article id when it updated in place. There is **no GET for a single
+article** and the blog-list endpoint omits `body`, so reconstruct the body from
+the repo draft. To embed a header image, prepend
+`<figure><img src="<cover-url>" .../></figure>` to that body.
+
+**Deleting an article:** `DELETE https://api.selldone.com/article/shop-blog/<id>`
+(Bearer auth) → `{"success":true}`. Use this to clean up any accidental duplicate.
 
 ### STEP 7 — LOG THE RESULT (in the repo, then push)
 

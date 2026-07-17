@@ -1,5 +1,7 @@
 ---
 title: "What NASA's Robot Swarms Can Teach Us About Educating Kids"
+cover_image: 'images/covers/what-nasas-robot-swarms-can-teach-us-about-educating-kids.jpg'
+cover_style: 'Mono Line — Nano Banana Pro (gemini-3-pro-image), embedded as body header 2026-07-17'
 posted: true
 posted_date: 2026-07-13
 selldone_article_id: 738835

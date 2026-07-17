@@ -4,8 +4,9 @@ posted: true
 posted_date: '2026-07-15'
 selldone_article_id: 738968
 slug: what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom
-cover_style: 'Mono Line (STYLE_GUIDE.md) — hand-drawn SVG, source in images/covers/*.src.html'
 body_format: html
+cover_image: 'images/covers/what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom.jpg'
+cover_style: 'Mono Line — Nano Banana Pro (gemini-3-pro-image), embedded as body header 2026-07-17'
 origin_date: 2026-05-06
 ---
 

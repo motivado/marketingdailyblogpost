@@ -12,3 +12,13 @@
 [2026-07-15] Status: Published ✅
 [2026-07-15] Note: RSS feeds had no new posts (tokylabs latest: 2026-02-04, tokylabs.bali latest: 2026-07-10). mini-catapult.md draft retroactively marked posted:true (article 738888 already live).
 [2026-07-15] Cover image for article 738968 REDONE in new Mono Line style (STYLE_GUIDE.md): hand-drawn SVG rendered to PNG, same file path so live article URL unchanged. Canva generate-design could not produce the line-art style (returned photo templates with text) — use SVG rendering for Mono Line covers going forward.
+
+[2026-07-17] IMAGE RESTYLE (batch) — switched cover generation to Nano Banana Pro (Google Gemini `gemini-3-pro-image`), which renders the Mono Line single-line doodle style far better than SVG or Canva. Recipe saved: content/cover-image-prompt.md + scripts_nb_cover_gen.py. GEMINI_API_KEY added as environment secret.
+[2026-07-17] Redid covers for the 5 most recent posts in Mono Line style AND embedded each cover as a header <figure><img> at the top of the article body (articles were text-only before):
+[2026-07-17]   738835 NASA Robot Swarms — cover + header image ✅
+[2026-07-17]   738888 Mini Catapult — cover + header image ✅
+[2026-07-17]   738968 ESA Robotics — cover (replaced SVG) + header image ✅
+[2026-07-17]   739043 DIY Water Dispenser — cover + header image ✅
+[2026-07-17]   739077 Education Conferences — cover + header image ✅
+[2026-07-17] Mechanism: POST /article/shop-blog/edit with "article_id" updates in place (passing "id" instead creates a duplicate; cleaned one up via DELETE /article/shop-blog/<id>). All 5 updated in place, blog total still 20, no duplicate titles. Covers hosted on this branch under images/covers/*.jpg.
+[2026-07-17] Note: water-dispenser (739043) and education-conferences (739077) were published by the 07-16/07-17 runs on separate branches; their draft front matter was stale (posted:false) on this branch and has been corrected.

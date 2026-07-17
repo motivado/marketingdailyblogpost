@@ -5,6 +5,8 @@ posted_date: '2026-07-13'
 selldone_article_id: 738888
 slug: build-a-mini-catapult-with-your-kids-the-stem-project-that-makes-physics-click
 body_format: html
+cover_image: 'images/covers/build-a-mini-catapult-with-your-kids-the-stem-project-that-makes-physics-click.jpg'
+cover_style: 'Mono Line — Nano Banana Pro (gemini-3-pro-image), embedded as body header 2026-07-17'
 origin_date: 2026-05-01
 origin_source: 'Notion Newsletter Idea — Catapult Cannon (Fam. Project)'
 canva_design_id: DAHPTajZOp4

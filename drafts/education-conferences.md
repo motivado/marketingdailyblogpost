@@ -1,7 +1,12 @@
 ---
 title: 'Why TokyLabs Shows Up at Education Conferences — And What We Heard'
-posted: false
+posted: true
+posted_date: '2026-07-17'
+selldone_article_id: 739077
+slug: why-tokylabs-shows-up-at-education-conferences
 body_format: html
+cover_image: 'images/covers/why-tokylabs-shows-up-at-education-conferences.jpg'
+cover_style: 'Mono Line — Nano Banana Pro (gemini-3-pro-image), embedded as body header 2026-07-17'
 origin_date: 2026-05-18
 origin_source: 'Notion Newsletter Idea — "UNCONFERENCE photo" (What''s New?)'
 ---
