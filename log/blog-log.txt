@@ -3,3 +3,27 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-07-14] Source: Draft queue (drafts/mini-catapult.md) — retroactive log entry
+[2026-07-14] Title: "Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click" | Selldone article ID: 738888 | slug: build-a-mini-catapult-with-your-kids-the-stem-project-that-makes-physics-click
+[2026-07-14] Notion Newsletter Idea used: Catapult Cannon (Fam. Project)
+[2026-07-14] Ebook section used: n/a
+[2026-07-14] Status: Published ✅
+
+[2026-07-15] Source: Draft queue (drafts/space-agencies-teachers.md) — retroactive log entry
+[2026-07-15] Title: "What the European Space Agency Can Teach Us About Robotics in the Classroom" | Selldone article ID: 738968 | slug: what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom
+[2026-07-15] Notion Newsletter Idea used: n/a
+[2026-07-15] Ebook section used: n/a
+[2026-07-15] Status: Published ✅
+
+[2026-07-16] Source: Draft queue (drafts/water-dispenser.md) — retroactive log entry
+[2026-07-16] Title: "What a DIY Water Dispenser Teaches Kids That a Textbook Never Could" | Selldone article ID: 739043 | slug: what-a-diy-water-dispenser-teaches-kids-that-a-textbook-never-could
+[2026-07-16] Notion Newsletter Idea used: DIY Water Dispenser (Fam. Project)
+[2026-07-16] Ebook section used: n/a
+[2026-07-16] Status: Published ✅
+
+[2026-07-17] Source: Draft queue (drafts/education-conferences.md) — no new Instagram posts
+[2026-07-17] Title: "Why TokyLabs Shows Up at Education Conferences — And What We Heard" | Selldone article ID: 739077 | slug: why-tokylabs-shows-up-at-education-conferences-and-what-we-heard
+[2026-07-17] Notion Newsletter Idea used: UNCONFERENCE photo (What's New?)
+[2026-07-17] Ebook section used: n/a
+[2026-07-17] Status: Published ✅
