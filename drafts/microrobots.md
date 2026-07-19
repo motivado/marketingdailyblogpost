@@ -1,6 +1,9 @@
 ---
 title: 'The Tiniest Robots in the World — And What They Teach Our Kids About Possibility'
-posted: false
+posted: true
+posted_date: 2026-07-17
+selldone_article_id: 739109
+slug: the-tiniest-robots-in-the-world-and-what-they-teach-our-kids-about-possibility
 body_format: html
 origin_date: 2026-05-20
 origin_source: 'Notion Newsletter Idea (Cool Stuff) — "The Smallest Robots in the World, like Microrobots and what they can do."'
