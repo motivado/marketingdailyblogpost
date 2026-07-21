@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+[2026-07-21] Source: Draft queue (drafts/creativity-ai-age.md) — RSS feeds unavailable (rss.app trial expired)
+[2026-07-21] Title: "Why Creativity Is the Superpower Every Child Needs in the Age of AI" | Selldone article ID: 739263 | slug: why-creativity-is-the-superpower-every-child-needs-in-the-age-of-ai
+[2026-07-21] Notion Newsletter Idea used: "We can't teach children the jobs of the future, because those jobs don't exist yet. What we can teach is how to learn, adapt and create" (Philosophical Note) — marked Used? = true
+[2026-07-21] Ebook section used: n/a
+[2026-07-21] Cover image: Canva design DAHP-A81zrI → images/covers/why-creativity-is-the-superpower-every-child-needs-in-the-age-of-ai.png
+[2026-07-21] Status: Published ✅
