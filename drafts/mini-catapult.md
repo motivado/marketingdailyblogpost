@@ -1,6 +1,9 @@
 ---
 title: 'Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click'
-posted: false
+posted: true
+posted_date: 2026-07-14
+selldone_article_id: 738888
+slug: build-a-mini-catapult-with-your-kids-the-stem-project-that-makes-physics-click
 body_format: html
 origin_date: 2026-05-01
 origin_source: 'Notion Newsletter Idea — Catapult Cannon (Fam. Project)'

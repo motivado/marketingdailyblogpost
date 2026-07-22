@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+[2026-07-22] Source: Draft queue (drafts/critical-thinking-age-of-ai.md)
+[2026-07-22] Title: "Why Critical Thinking Is the Most Important Skill You Can Give Your Child in the Age of AI" | Selldone article ID: 739343
+[2026-07-22] Notion Newsletter Idea used: n/a
+[2026-07-22] Ebook section used: n/a
+[2026-07-22] RSS feeds: unavailable (HTTP 402)
+[2026-07-22] Status: Published ✅
