@@ -1,6 +1,10 @@
 ---
 title: 'In the Age of AI, Effort Is Your Child''s Most Valuable Skill'
-posted: false
+posted: true
+posted_date: '2026-07-23'
+selldone_article_id: 739545
+slug: in-the-age-of-ai-effort-is-your-childs-most-valuable-skill
+canva_design_id: DAHQKJr4waI
 body_format: html
 origin_date: 2026-05-28
 ---
