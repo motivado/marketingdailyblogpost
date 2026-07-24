@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-07-24] Source: Draft queue (drafts/kids-hackathons.md) — RSS feeds unavailable (trial expired)
+[2026-07-24] Title: "Why a Student Hackathon Is One of the Best Learning Experiences You Can Give Your Child" | Selldone article ID: 739669 | slug: why-a-student-hackathon-is-one-of-the-best-learning-experiences-you-can-give-your-child
+[2026-07-24] Notion Newsletter Idea used: n/a (hackathon-related ideas already marked Used)
+[2026-07-24] Ebook section used: n/a
+[2026-07-24] Status: Published ✅
