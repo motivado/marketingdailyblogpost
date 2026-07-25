@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-07-25] Source: Draft queue — drafts/makerspace-visit.md (origin_date: 2026-06-21) — RSS feeds unavailable (402 Payment Required)
+[2026-07-25] Title: "Inside a TokyLabs MakerSpace Session: 7 Moments That Change How Kids Think" | Selldone article ID: 739816 | slug: inside-a-tokylabs-makerspace-session-7-moments-that-change-how-kids-think
+[2026-07-25] Cover image: Canva design DAHQWB2szPI → images/covers/makerspace-session-7-moments.png
+[2026-07-25] Notion Newsletter Idea used: n/a
+[2026-07-25] Ebook section used: n/a
+[2026-07-25] Status: Published ✅
