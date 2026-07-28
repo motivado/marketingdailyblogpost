@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-07-28] Source: Draft queue (drafts/joy-innovation.md) — RSS feeds returned 402 (rss.app paywall), no new Instagram posts
+[2026-07-28] Title: "Why Joy Is the Secret Ingredient in Your Child's Learning" | Selldone article ID: 740355 | slug: why-joy-is-the-secret-ingredient-in-your-childs-learning
+[2026-07-28] Notion Newsletter Idea used: n/a ("Joy is our philosophy" Philosophical Note already marked Used? = YES)
+[2026-07-28] Ebook section used: n/a
+[2026-07-28] Cover image: n/a (Canva quota exhausted)
+[2026-07-28] Status: Published ✅
