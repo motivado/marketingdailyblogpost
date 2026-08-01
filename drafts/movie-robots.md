@@ -1,6 +1,10 @@
 ---
 title: 'What Wall-E, Baymax, and R2-D2 Teach Kids About Real Robotics'
-posted: false
+posted: true
+posted_date: '2026-08-01'
+selldone_article_id: 740807
+slug: what-wall-e-baymax-and-r2-d2-teach-kids-about-real-robotics
+canva_design_id: DAHRAG0vCbQ
 body_format: html
 origin_date: 2026-07-08
 origin_source: 'Notion Newsletter Idea (Trivia / Cool Stuff)'
