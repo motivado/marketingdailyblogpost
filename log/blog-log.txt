@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+[2026-08-02] Source: Draft queue (screenless-robotics.md) — RSS feeds returned 402, no new Instagram posts
+[2026-08-02] Title: "Why Screenless Robotics Is the Best First Step for Young Learners" | Selldone article ID: 740868
+[2026-08-02] Notion Newsletter Idea used: n/a
+[2026-08-02] Ebook section used: n/a
+[2026-08-02] Cover image: images/covers/screenless-robotics.png (Canva design DAHRGEnEkdg)
+[2026-08-02] Status: Published ✅
