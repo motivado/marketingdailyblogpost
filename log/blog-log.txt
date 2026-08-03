@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-03] Source: Notion Newsletter Idea (Fam. Project) — RSS feeds unavailable (rss.app trial expired)
+[2026-08-03] Title: "Build a Newspaper Tower With Your Kids: The Zero-Cost Engineering Challenge That Changes How They Think" | Selldone article ID: 740979 | slug: build-a-newspaper-tower-with-your-kids-the-zero-cost-engineering-challenge-that-changes-how-they-think
+[2026-08-03] Notion Newsletter Idea used: "Family challenge: build the tallest tower that can hold a book, using only newspaper and tape — engineering thinking with zero cost" (Section: Fam. Project, ID: 39cf65d7-fc20-812a-941a-d8a196d85b73)
+[2026-08-03] Ebook section used: n/a (pdftotext not available in cloud environment)
+[2026-08-03] Status: Published ✅
