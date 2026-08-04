@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-04] Source: Notion Newsletter Idea — Philosophical Note
+[2026-08-04] Title: "Why Robots Never Really Fail — And What That Teaches Our Kids" | Selldone article ID: 741339 | slug: n/a (assigned by server)
+[2026-08-04] Notion Newsletter Idea used: "A child's robot never 'fails' — it collects data about what doesn't work yet. Iteration is the heart of engineering, and of learning" (Philosophical Note) — marked Used? = true
+[2026-08-04] Ebook section used: n/a (ebook not available in cloud environment)
+[2026-08-04] Status: Published ✅
