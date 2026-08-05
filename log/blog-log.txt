@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-05] Source: Notion Newsletter Idea (Cool Stuff) — RSS feeds unavailable (rss.app trial expired); all existing drafts already published
+[2026-08-05] Title: "Paper Rockets, Robot Insects, and Mars Rovers: Inside NASA's Free STEM Playground for Kids" | Selldone article ID: 741486 | slug: paper-rockets-robot-insects-and-mars-rovers-inside-nasas-free-stem-playground-for-kids
+[2026-08-05] Notion Newsletter Idea used: "NASA publishes free hands-on STEM activities for kids, from paper rockets to Mars rover coding games" (Cool Stuff) — marked Used? = true
+[2026-08-05] Ebook section used: Chapter 3 (hands-on/screen-free learning) + Chapter 7 (practical resources for teachers)
+[2026-08-05] Status: Published ✅
