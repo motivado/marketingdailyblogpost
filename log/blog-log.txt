@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+[2026-08-06] Source: Notion Newsletter Idea (Cool Stuff) + Ebook Chapter 3.2
+[2026-08-06] Title: "Light Up Learning: How Paper Circuits Turn Any Child's Drawing Into a STEM Adventure" | Selldone article ID: 741616 | slug: light-up-learning-how-paper-circuits-turn-any-childs-drawing-into-a-stem-adventure
+[2026-08-06] Notion Newsletter Idea used: "Paper circuits: with copper tape, a coin battery and an LED, any child's drawing can light up — electronics without a single screen" (Cool Stuff)
+[2026-08-06] Ebook section used: Chapter 3.2 — Benefits of Screen-Free Learning for Primary School Students
+[2026-08-06] RSS feeds: 402 Payment Required (unavailable)
+[2026-08-06] Canva cover: images/covers/paper-circuits-screen-free-electronics.png (design ID: DAHReH5HP6I)
+[2026-08-06] Status: Published ✅
