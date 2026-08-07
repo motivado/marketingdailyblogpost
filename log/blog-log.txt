@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-07] Source: Notion Newsletter Idea (Trivia) + Ebook Chapter 1 & 3 — RSS feeds unavailable (trial expired), all drafts already posted
+[2026-08-07] Title: "The Word 'Robot' Is 106 Years Old — And It's Never Been More Relevant in the Classroom" | Selldone article ID: 741739
+[2026-08-07] Notion Newsletter Idea used: "The word 'robot' comes from the Czech word 'robota' (forced labor), coined in Karel Čapek's 1920 play R.U.R. — decades before real robots existed" (Section: Trivia) — marked Used? = true in Notion
+[2026-08-07] Ebook section used: Chapter 1 (Changing Educational Landscape) + Chapter 3 (Why STEM and Robotics is crucial) — robotics education philosophy, removing technical barriers for teachers
+[2026-08-07] Status: Published ✅
