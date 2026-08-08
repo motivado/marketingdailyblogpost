@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-08] Source: Draft queue (drafts/mini-catapult.md) — RSS feeds unavailable (trial expired)
+[2026-08-08] Title: "Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click" | Selldone article ID: 741902 | slug: build-a-mini-catapult-with-your-kids-the-stem-project-that-makes-physics-click
+[2026-08-08] Notion Newsletter Idea used: Catapult Cannon (Fam. Project) — already marked Used? = YES
+[2026-08-08] Ebook section used: n/a
+[2026-08-08] Cover image: Canva design DAHPTajZOp4 (PNG exported and committed to images/covers/mini-catapult.png)
+[2026-08-08] Status: Published ✅
