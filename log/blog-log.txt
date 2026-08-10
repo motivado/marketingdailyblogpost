@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-10] Source: Draft queue (drafts/space-agencies-teachers.md)
+[2026-08-10] Title: "What the European Space Agency Can Teach Us About Robotics in the Classroom" | Selldone article ID: 742504 | slug: what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom
+[2026-08-10] Notion Newsletter Idea used: ESA's Technology & Robotics Workshops (already marked Used? = true in prior run)
+[2026-08-10] Ebook section used: n/a
+[2026-08-10] RSS feeds: unavailable (HTTP 402)
+[2026-08-10] Status: Published ✅
