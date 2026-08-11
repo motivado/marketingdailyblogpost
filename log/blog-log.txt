@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-11] Source: Draft queue (drafts/water-dispenser.md) — RSS feeds expired (rss.app trial), no new Instagram posts
+[2026-08-11] Title: "What a DIY Water Dispenser Teaches Kids That a Textbook Never Could" | Selldone article ID: 742673 | slug: what-a-diy-water-dispenser-teaches-kids-that-a-textbook-never-could
+[2026-08-11] Notion Newsletter Idea used: DIY Water Dispenser (Fam. Project) — ID: 271f65d7fc2080068652d4c23c6278b4
+[2026-08-11] Ebook section used: n/a
+[2026-08-11] Cover image: Canva design DAHR8GKGQ_I — saved to images/covers/what-a-diy-water-dispenser-teaches-kids-that-a-textbook-never-could.png
+[2026-08-11] Status: Published ✅
