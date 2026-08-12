@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-12] Source: Draft queue (education-conferences.md) — origin: Notion Newsletter Idea "UNCONFERENCE photo" (What's New?)
+[2026-08-12] Title: "Why TokyLabs Shows Up at Education Conferences — And What We Heard" | Selldone article ID: 743160 | slug: why-tokylabs-shows-up-at-education-conferences-and-what-we-heard
+[2026-08-12] Notion Newsletter Idea used: "UNCONFERENCE photo" (already marked Used in Notion prior to this run)
+[2026-08-12] Ebook section used: n/a
+[2026-08-12] Cover image: Canva design DAHSCB1aAj4 — images/covers/why-tokylabs-shows-up-at-education-conferences-and-what-we-heard.png
+[2026-08-12] Status: Published ✅
