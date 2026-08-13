@@ -1,9 +1,14 @@
 ---
 title: "Why 70% of Your Child's Robotics Class Should Have Nothing to Do With Robots"
-posted: false
+posted: true
+posted_date: 2026-08-13
+selldone_article_id: 743279
+slug: why-70-of-your-childs-robotics-class-should-have-nothing-to-do-with-robots
+canva_design_id: DAHSIDR-QWg
 body_format: html
 origin_date: 2026-08-13
 origin_source: 'Ebook — Chapter 4.2.2 (Tokymini 70/30 curriculum philosophy) + Chapter 3.2 (Screen-free learning benefits)'
+note: 'Duplicate articles 743280 and 743281 created by API double-call — need manual deletion from Selldone backoffice'
 ---
 
 <p>Here is something that might surprise you: at TokyLabs, the most important thing happening in a robotics class has very little to do with robots. In fact, only about 30% of the learning time in our primary school programme focuses on electronics and programming. The other 70%? That belongs to creativity, critical thinking, problem-solving, and the kind of hands-on craftsmanship that builds a child's confidence from the inside out.</p>

@@ -3,3 +3,12 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-13] Source: Ebook — Chapter 4 (Tokymini 70/30 curriculum philosophy, screen-free learning) + Chapter 3.2 (screen-free benefits)
+[2026-08-13] Title: "Why 70% of Your Child's Robotics Class Should Have Nothing to Do With Robots" | Selldone article ID: 743279 | slug: why-70-of-your-childs-robotics-class-should-have-nothing-to-do-with-robots
+[2026-08-13] Notion Newsletter Idea used: n/a (all entries marked Used? = true — fresh ideas needed in Notion)
+[2026-08-13] Ebook section used: Chapter 4.2.2 (Tokymini 70/30 curriculum philosophy) + Chapter 3.2 (screen-free learning for primary school students)
+[2026-08-13] Cover image: Canva design DAHSIDR-QWg → images/covers/70-30-robotics-curriculum.png
+[2026-08-13] RSS feeds: Both @tokylabs and @tokylabs.bali returned 402 Payment Required (rss.app plan issue)
+[2026-08-13] Status: Published ✅
+[2026-08-13] Note: Duplicate articles 743280 & 743281 created by API double-call — manual deletion needed in Selldone backoffice
