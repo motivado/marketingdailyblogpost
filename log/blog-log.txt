@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-16] Source: Draft queue (oldest unposted draft) — RSS feeds unavailable (402)
+[2026-08-16] Title: "The Tiniest Robots in the World — And What They Teach Our Kids About Possibility" | Selldone article ID: 743718 | slug: the-tiniest-robots-in-the-world-and-what-they-teach-our-kids-about-possibility
+[2026-08-16] Notion Newsletter Idea used: n/a (Microrobots idea already marked Used from prior run)
+[2026-08-16] Ebook section used: n/a
+[2026-08-16] Cover image: Canva design DAHSaC9F74s → images/covers/microrobots.png
+[2026-08-16] Status: Published ✅
