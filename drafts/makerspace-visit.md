@@ -1,6 +1,9 @@
 ---
 title: 'Inside a TokyLabs MakerSpace Session: 7 Moments That Change How Kids Think'
-posted: false
+posted: true
+posted_date: 2026-08-18
+selldone_article_id: 739816
+slug: inside-a-tokylabs-makerspace-session-7-moments-that-change-how-kids-think
 body_format: html
 origin_date: 2026-06-21
 ---

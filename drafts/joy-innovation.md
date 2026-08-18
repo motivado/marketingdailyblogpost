@@ -1,6 +1,9 @@
 ---
 title: 'Why Joy Is the Secret Ingredient in Your Child''s Learning'
-posted: false
+posted: true
+posted_date: 2026-08-18
+selldone_article_id: 740355
+slug: why-joy-is-the-secret-ingredient-in-your-childs-learning
 body_format: markdown
 origin_date: 2026-06-24
 origin_source: 'Notion Instagram Idea — Innovation starts with JOY (MAY 4th)'

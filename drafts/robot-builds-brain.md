@@ -1,6 +1,9 @@
 ---
 title: 'What Happens to a Child''s Brain When They Build a Robot — And Why It Matters More Than You Think'
-posted: false
+posted: true
+posted_date: 2026-08-18
+selldone_article_id: 739137
+slug: what-happens-to-a-childs-brain-when-they-build-a-robot-and-why-it-matters-more-than-you-think
 body_format: html
 origin_date: 2026-05-21
 origin_source: 'TokyLabs knowledge base (Tokymini focus)'

@@ -1,6 +1,9 @@
 ---
 title: 'Why a Student Hackathon Is One of the Best Learning Experiences You Can Give Your Child'
-posted: false
+posted: true
+posted_date: 2026-08-18
+selldone_article_id: 739669
+slug: why-a-student-hackathon-is-one-of-the-best-learning-experiences-you-can-give-your-child
 body_format: html
 origin_date: 2026-06-05
 origin_source: 'Notion Instagram Idea (Approved) — TokyLabs Hackathon reel'
