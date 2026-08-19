@@ -3,3 +3,9 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-19] Source: Draft queue (effort-ai-age.md) — RSS feeds unavailable (402 Payment Required)
+[2026-08-19] Title: "In the Age of AI, Effort Is Your Child's Most Valuable Skill" | Selldone article ID: 744544 | slug: in-the-age-of-ai-effort-is-your-childs-most-valuable-skill
+[2026-08-19] Notion Newsletter Idea used: n/a
+[2026-08-19] Ebook section used: n/a
+[2026-08-19] Status: Published ✅
