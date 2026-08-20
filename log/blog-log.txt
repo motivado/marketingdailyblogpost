@@ -3,3 +3,10 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+[2026-08-20] Source: Ebook — Chapter 2: The Growing Demand for Robotics Educators (RSS feeds unavailable: 402 Trial Expired; all drafts already posted)
+[2026-08-20] Title: "Why Schools Can't Find Enough Robotics Teachers — And What That Means for Educators" | Selldone article ID: 744798 | slug: why-schools-cant-find-enough-robotics-teachers-and-what-that-means-for-educators
+[2026-08-20] Notion Newsletter Idea used: n/a (all entries marked Used)
+[2026-08-20] Ebook section used: Chapter 2 — The Growing Demand for Robotics Educators
+[2026-08-20] Cover image: images/covers/robotics-teacher-demand.png (Canva design DAHSyIgIjWc)
+[2026-08-20] Status: Published ✅
+[2026-08-20] NOTE: All draft queue files marked posted:false were already published on the blog. All Notion Newsletter Ideas are marked Used. Fresh Notion ideas needed for next run.
