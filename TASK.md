@@ -125,10 +125,25 @@ Articles from Instagram already have a photo (Step 4). For all others (draft
 queue, Notion, ebook), generate a cover with the **Canva MCP connector**:
 
 1. `generate-design` with `design_type: "youtube_thumbnail"` (1280×720, good
-   blog-cover ratio). Prompt: describe the article topic visually — warm,
-   bright flat-illustration style for a parenting/education blog; **no readable
-   text or logos in the image**. If the draft's front matter already has a
-   `canva_design_id`, skip generation and reuse it.
+   blog-cover ratio). Use the **fixed prompt template** below, filling in
+   `[ACTION]` and `[KEY ELEMENT]` from the article topic. If the draft's front
+   matter already has a `canva_design_id`, skip generation and reuse it.
+
+**Cover image prompt template (use verbatim, substituting the bracketed parts):**
+
+> Minimalist black line art doodle on a plain, textured off-white background.
+> A main character, drawn with a single continuous fluid black line, is
+> [ACTION related to the article topic]. The composition uses the absolute
+> minimum number of strokes to define forms — essential lines only, leaving
+> vast empty space. One key element ([KEY ELEMENT]) is filled with a textured
+> magenta (#FF0082) crayon-like block of color. A final, single, broad magenta
+> (#FF0082) brush stroke defines the environment beneath them, suggesting the
+> location with extreme economy. Style is raw, quick, and conceptual; zero
+> rendering, zero shading. No readable text or logos.
+
+Brand color reference: `brand/colors.md`. The magenta `#FF0082` is TokyLabs'
+Creativity/STEAM accent — use it consistently for the filled element and ground
+stroke in every cover image.
 2. Pick the first candidate → `create-design-from-candidate` → save the
    returned design id into the draft's front matter as `canva_design_id`.
 3. `get-export-formats`, then `export-design` as PNG.
