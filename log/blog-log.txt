@@ -3,3 +3,11 @@
 [2026-07-13] Notion Newsletter Idea used: n/a (all entries marked Used)
 [2026-07-13] Ebook section used: n/a (ebook not available in cloud environment)
 [2026-07-13] Status: Published ✅
+
+[2026-08-21] Source: Draft queue — drafts/robot-builds-brain.md (origin_date: 2026-05-21, Tokymini focus)
+[2026-08-21] Title: "What Happens to a Child's Brain When They Build a Robot — And Why It Matters More Than You Think" | Selldone article ID: 744993 | slug: what-happens-to-a-childs-brain-when-they-build-a-robot-and-why-it-matters-more-than-you-think
+[2026-08-21] Notion Newsletter Idea used: n/a (all checked entries marked Used)
+[2026-08-21] Ebook section used: n/a (published from draft queue)
+[2026-08-21] Cover image: images/covers/robot-builds-brain.png (Canva design DAHS4I7rQmY)
+[2026-08-21] RSS feeds: 402 Payment Required — fell through to draft queue
+[2026-08-21] Status: Published ✅
