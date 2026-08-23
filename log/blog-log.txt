@@ -11,3 +11,11 @@
 [2026-08-21] Cover image: images/covers/robot-builds-brain.png (Canva design DAHS4I7rQmY)
 [2026-08-21] RSS feeds: 402 Payment Required — fell through to draft queue
 [2026-08-21] Status: Published ✅
+
+[2026-08-23] Source: Draft queue — drafts/kids-hackathons.md (origin_date: 2026-06-05, Hackathon/after-school focus)
+[2026-08-23] Title: "Why a Student Hackathon Is One of the Best Learning Experiences You Can Give Your Child" | Selldone article ID: 745683 | slug: why-a-student-hackathon-is-one-of-the-best-learning-experiences-you-can-give-your-child
+[2026-08-23] Notion Newsletter Idea used: n/a (article published as pre-written draft)
+[2026-08-23] Ebook section used: n/a (published from draft queue)
+[2026-08-23] Cover image: none (Canva quota reached)
+[2026-08-23] RSS feeds: 402 Payment Required — fell through to draft queue
+[2026-08-23] Status: Published ✅
