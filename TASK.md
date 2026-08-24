@@ -158,21 +158,23 @@ quota limit on 2026-08-24 and blocked cover generation entirely.
 **Cover image prompt template** — this is what `gen_cover.py` sends; it is
 reproduced here so the wording stays reviewable. Keep the two in sync.
 
-> Minimalist black line art doodle on a plain, textured off-white background.
-> A main character, drawn with a single continuous fluid black line, is
-> [ACTION related to the article topic]. The composition uses the absolute
-> minimum number of strokes to define forms — essential lines only, leaving
-> vast empty space. One key element ([KEY ELEMENT]) is filled with a textured
-> magenta (#FF0082) crayon-like block of color. A final, single, broad magenta
-> (#FF0082) brush stroke defines the environment beneath them, suggesting the
-> location with extreme economy. Style is raw, quick, and conceptual; zero
-> rendering, zero shading. No readable text or logos.
+> Minimalist Indigo #30197C line art doodle on a plain, textured off-white
+> background. A main character, drawn with a single continuous fluid Indigo
+> #30197C line, is [ACTION related to the article topic]. The composition uses
+> the absolute minimum number of strokes to define forms — essential lines only,
+> leaving vast empty space. One key element ([KEY ELEMENT]) is filled with a
+> textured magenta (#FF0082) crayon-like block of color. A final, single, broad
+> cyan (#41C5EE) brush stroke defines the environment beneath them, suggesting
+> the location with extreme economy. Style is raw, quick, and conceptual; zero
+> rendering, zero shading. No readable text or logos. Centre the subject in the
+> frame with balanced margins on both sides.
 
-Brand color reference: `brand/colors.md`. The magenta `#FF0082` is TokyLabs'
-Creativity/STEAM accent — use it consistently for the filled element and ground
-stroke in every cover image. The model approximates the hex rather than matching
-it exactly; the centring instruction at the end of the template matters, without
-it the subject crowds one edge.
+Brand color reference: `brand/colors.md`. Every cover uses all three main brand
+colors in their intended proportions: indigo `#30197C` for the line art (Core,
+dominant), cyan `#41C5EE` for the ground stroke (Action, secondary), magenta
+`#FF0082` for the one filled element (Creativity/STEAM, accent). The model
+approximates each hex rather than matching it exactly; the centring instruction
+at the end of the template matters, without it the subject crowds one edge.
 
 The repo is public, so the raw URL is visible to blog readers. Prefer the
 default branch (`claude/trusting-cannon-fgGop`) once the image is merged there;

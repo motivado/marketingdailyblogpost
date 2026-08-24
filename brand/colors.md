@@ -8,6 +8,12 @@
 | 04 | Amber | `#FFD200` | Utility 1% | "Critical alerts" |
 
 ## Cover Image Usage
-- **Line art / doodle strokes**: black
+- **Line art / doodle strokes**: Indigo `#30197C` (Core)
 - **Background**: plain textured off-white
-- **Key element fill + ground brush stroke**: Magenta `#FF0082` (Creativity/STEAM accent)
+- **Key element fill**: Magenta `#FF0082` (Creativity/STEAM accent)
+- **Ground brush stroke**: Cyan `#41C5EE` (Action)
+
+All three brand colors appear in every cover, in roughly their intended
+proportions: indigo dominant, cyan secondary, magenta as the accent. The line
+art was black until 2026-08-24; indigo reads as clearly on off-white and puts
+the covers on-brand.

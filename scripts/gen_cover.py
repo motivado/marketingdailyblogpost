@@ -43,16 +43,16 @@ EXT = {"image/png": ".png", "image/jpeg": ".jpg", "image/webp": ".webp"}
 
 # Verbatim brand template from TASK.md STEP 5.5. Keep in sync with that file.
 PROMPT_TEMPLATE = (
-    "Minimalist black line art doodle on a plain, textured off-white background. "
-    "A main character, drawn with a single continuous fluid black line, is "
-    "{action}. The composition uses the absolute minimum number of strokes to "
-    "define forms — essential lines only, leaving vast empty space. One key "
-    "element ({key_element}) is filled with a textured magenta (#FF0082) "
-    "crayon-like block of color. A final, single, broad magenta (#FF0082) brush "
-    "stroke defines the environment beneath them, suggesting the location with "
-    "extreme economy. Style is raw, quick, and conceptual; zero rendering, zero "
-    "shading. No readable text or logos. Centre the subject in the frame with "
-    "balanced margins on both sides."
+    "Minimalist Indigo #30197C line art doodle on a plain, textured off-white "
+    "background. A main character, drawn with a single continuous fluid Indigo "
+    "#30197C line, is {action}. The composition uses the absolute minimum "
+    "number of strokes to define forms — essential lines only, leaving vast "
+    "empty space. One key element ({key_element}) is filled with a textured "
+    "magenta (#FF0082) crayon-like block of color. A final, single, broad cyan "
+    "(#41C5EE) brush stroke defines the environment beneath them, suggesting "
+    "the location with extreme economy. Style is raw, quick, and conceptual; "
+    "zero rendering, zero shading. No readable text or logos. Centre the "
+    "subject in the frame with balanced margins on both sides."
 )
 
 
