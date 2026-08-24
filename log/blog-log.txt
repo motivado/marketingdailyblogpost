@@ -11,3 +11,10 @@
 [2026-08-21] Cover image: images/covers/robot-builds-brain.png (Canva design DAHS4I7rQmY)
 [2026-08-21] RSS feeds: 402 Payment Required — fell through to draft queue
 [2026-08-21] Status: Published ✅
+
+[2026-08-24] Source: Draft queue — drafts/joy-innovation.md (origin_date: 2026-06-24, after-school & Tokymaker/Tokymini focus)
+[2026-08-24] Title: "Why Joy Is the Secret Ingredient in Your Child's Learning" | Selldone article ID: 745859 | slug: why-joy-is-the-secret-ingredient-in-your-childs-learning
+[2026-08-24] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-08-24] Ebook section used: n/a (published from draft queue)
+[2026-08-24] RSS feeds: Trial expired — fell through to draft queue
+[2026-08-24] Status: Published ✅
