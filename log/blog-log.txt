@@ -17,4 +17,5 @@
 [2026-08-24] Notion Newsletter Idea used: n/a (published from draft queue)
 [2026-08-24] Ebook section used: n/a (published from draft queue)
 [2026-08-24] RSS feeds: Trial expired — fell through to draft queue
-[2026-08-24] Status: Published ✅
+[2026-08-24] Cover image: SKIPPED — Canva quota limit reached (generate-design returned quota error); article published without image
+[2026-08-24] Status: Published ✅ (no cover image — pending Canva quota reset)
