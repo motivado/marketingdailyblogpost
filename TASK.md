@@ -22,8 +22,13 @@ Tone: warm, inspiring, educator-friendly. Audience: parents, teachers, school ad
 Set these as **environment secrets** in the Claude Code environment settings —
 never paste the token into the prompt text, a file, or a log.
 
+The scheduled prompt itself should stay thin and just point here — see
+`SCHEDULED_PROMPT.md` for the exact text and why. Claude cannot edit the account
+scheduler from a session; that is a manual step in the claude.ai UI.
+
 ```
 SELLDONE_TOKEN=<secret — Bearer token, backoffice:shop:write scope>
+GEMINI_API_KEY=<secret — used by scripts/gen_cover.py for cover images>
 SELLDONE_SHOP_ID=2362
 RSS_FEED_TOKYLABS=https://rss.app/feeds/<ID>.xml        # note /feeds/ + .xml — see RSS section
 RSS_FEED_TOKYLABS_BALI=https://rss.app/feeds/<ID>.xml
