@@ -13,9 +13,16 @@
 [2026-08-21] Status: Published ✅
 
 [2026-08-24] Source: Draft queue — drafts/joy-innovation.md (origin_date: 2026-06-24, after-school & Tokymaker/Tokymini focus)
-[2026-08-24] Title: "Why Joy Is the Secret Ingredient in Your Child's Learning" | Selldone article ID: 745859 | slug: why-joy-is-the-secret-ingredient-in-your-childs-learning
+[2026-08-24] Title: "Why Joy Is the Secret Ingredient in Your Child's Learning" | Selldone article ID: 745924 | slug: why-joy-is-the-secret-ingredient-in-your-childs-learning
 [2026-08-24] Notion Newsletter Idea used: n/a (published from draft queue)
 [2026-08-24] Ebook section used: n/a (published from draft queue)
 [2026-08-24] RSS feeds: Trial expired — fell through to draft queue
-[2026-08-24] Cover image: SKIPPED — Canva quota limit reached (generate-design returned quota error); article published without image
-[2026-08-24] Status: Published ✅ (no cover image — pending Canva quota reset)
+[2026-08-24] Cover image: images/covers/why-joy-is-the-secret-ingredient-in-your-childs-learning.jpg (Gemini gemini-3.1-flash-image)
+[2026-08-24] Status: Published ✅
+[2026-08-24] NOTE: Canva hit an account quota limit, so cover generation moved to
+             Gemini (Nano Banana) via scripts/gen_cover.py — see TASK.md Step 5.5.
+[2026-08-24] NOTE: /article/shop-blog/edit has NO update mode — passing an existing
+             id creates a duplicate. Confirmed as the source of the duplicate pairs
+             on the blog. First publish (745859) had no image; the attempt to add one
+             created duplicate 745921. Both deleted, then republished once as 745924
+             with the image included. Covers must now be generated BEFORE publishing.

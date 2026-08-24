@@ -121,15 +121,37 @@ Same structure as STEP 4: Hook → Learning/Tips → TokyLabs mention.
 
 ### STEP 5.5 — COVER IMAGE (for any article that has none)
 
+⚠️ **Do this BEFORE Step 6, always.** Selldone has no update endpoint — see the
+warning in Step 6 — so an image that is not in the create call can never be
+added to that article afterwards. Generate the cover first, then publish once.
+
 Articles from Instagram already have a photo (Step 4). For all others (draft
-queue, Notion, ebook), generate a cover with the **Canva MCP connector**:
+queue, Notion, ebook), generate a cover with **Gemini (Nano Banana)**:
 
-1. `generate-design` with `design_type: "youtube_thumbnail"` (1280×720, good
-   blog-cover ratio). Use the **fixed prompt template** below, filling in
-   `[ACTION]` and `[KEY ELEMENT]` from the article topic. If the draft's front
-   matter already has a `canva_design_id`, skip generation and reuse it.
+```bash
+python3 scripts/gen_cover.py "<slug>" "<ACTION>" "<KEY ELEMENT>"
+```
 
-**Cover image prompt template (use verbatim, substituting the bracketed parts):**
+It prints the path it wrote and the public raw.githubusercontent URL. Commit and
+push the image **before** Step 6 so the URL resolves when the article goes live,
+then pass that URL as `image` in the create call.
+
+* Needs `GEMINI_API_KEY` as an environment secret (already set).
+* Default model `gemini-3.1-flash-image` (Nano Banana 2); override with
+  `GEMINI_IMAGE_MODEL`. `gemini-3-pro-image` follows instructions best,
+  `gemini-3.1-flash-lite-image` is fastest.
+* Set `BLOG_BRANCH` to the branch you are pushing to so the printed URL matches
+  (defaults to `main`).
+* The API returns JPEG, so the file is written as `.jpg` — use the exact
+  filename the script prints, don't assume `.png`.
+* `ai.google.dev` is blocked by the sandbox egress proxy, but the API host
+  `generativelanguage.googleapis.com` is reachable. Don't try to read the docs.
+
+Canva MCP was the previous method and is no longer used — it hit an account
+quota limit on 2026-08-24 and blocked cover generation entirely.
+
+**Cover image prompt template** — this is what `gen_cover.py` sends; it is
+reproduced here so the wording stays reviewable. Keep the two in sync.
 
 > Minimalist black line art doodle on a plain, textured off-white background.
 > A main character, drawn with a single continuous fluid black line, is
@@ -143,20 +165,17 @@ queue, Notion, ebook), generate a cover with the **Canva MCP connector**:
 
 Brand color reference: `brand/colors.md`. The magenta `#FF0082` is TokyLabs'
 Creativity/STEAM accent — use it consistently for the filled element and ground
-stroke in every cover image.
-2. Pick the first candidate → `create-design-from-candidate` → save the
-   returned design id into the draft's front matter as `canva_design_id`.
-3. `get-export-formats`, then `export-design` as PNG.
-4. Download the export URL **immediately** (it is a signed link that expires in
-   hours) and save to `images/covers/<slug>.png` in this repo. Commit + push.
-   ⚠️ Requires `*.canva.com` in the environment network allowlist.
-5. Use the permanent URL in the article's `image` field:
-   `https://raw.githubusercontent.com/motivado/marketingdailyblogpost/claude/trusting-cannon-fgGop/images/covers/<slug>.png`
-   (repo is public, so this URL is visible to blog readers).
+stroke in every cover image. The model approximates the hex rather than matching
+it exactly; the centring instruction at the end of the template matters, without
+it the subject crowds one edge.
 
-**Never block publishing on images**: if Canva is unavailable or the download
-fails (e.g. egress still blocked), publish the article without an image and
-note it in the log.
+The repo is public, so the raw URL is visible to blog readers. Prefer the
+default branch (`claude/trusting-cannon-fgGop`) once the image is merged there;
+a working-branch URL resolves immediately but breaks if the branch is deleted.
+
+**Never block publishing on images**: if generation fails, publish without an
+image and note it in the log — but note the article then cannot be fixed later,
+so retry generation once before giving up.
 
 ### STEP 6 — PUBLISH TO SELLDONE
 
@@ -177,6 +196,20 @@ Content-Type: application/json
   "published": true
 }
 ```
+
+🚨 **This endpoint only ever CREATES. There is no update.** Passing an existing
+`id` in the body is silently ignored and you get a second article with the same
+title — this is where every duplicate pair on the blog came from (743279/743280,
+744797/744798, 743879/745469, and one on 2026-08-24). Verified 2026-08-24: no
+`/article/shop-blog/{id}/edit` or `/edit/{id}` route exists (both 404).
+
+Consequences:
+* **Publish exactly once per article, with `image` already filled in.** A cover
+  cannot be attached after the fact — do Step 5.5 first.
+* To fix a published article you must `DELETE https://api.selldone.com/article/shop-blog/{id}`
+  (returns `{"success":true,"id":...}`) and create it again. Deleting frees the
+  slug, so delete before recreating to keep the clean slug.
+* Before doing that on anything not published in the current run, ask first.
 
 Notes:
 * `shop_id` is **required** in the body (its absence is the only validation error).
