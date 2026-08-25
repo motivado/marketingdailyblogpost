@@ -11,3 +11,11 @@
 [2026-08-21] Cover image: images/covers/robot-builds-brain.png (Canva design DAHS4I7rQmY)
 [2026-08-21] RSS feeds: 402 Payment Required — fell through to draft queue
 [2026-08-21] Status: Published ✅
+
+[2026-08-25] Source: Draft queue — drafts/makerspace-visit.md (origin_date: 2026-06-21, MakerSpace session framework)
+[2026-08-25] Title: "Inside a TokyLabs MakerSpace Session: 7 Moments That Change How Kids Think" | Selldone article ID: 747095 | slug: inside-a-tokylabs-makerspace-session-7-moments-that-change-how-kids-think
+[2026-08-25] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-08-25] Ebook section used: n/a (published from draft queue)
+[2026-08-25] Cover image: none (Canva quota exhausted)
+[2026-08-25] RSS feeds: Trial expired — fell through to draft queue
+[2026-08-25] Status: Published ✅
