@@ -1,8 +1,24 @@
-# TokyLabs Daily Blog — Task Instructions (v2)
+# TokyLabs Daily Blog — Task Instructions (v3)
 
 > Drop-in replacement for the original daily prompt. Same content rules,
 > corrected mechanics based on what actually works in the Claude Code cloud
 > environment (verified 2026-07-13, article ID 738835 published successfully).
+
+## 🚨 READ THIS BEFORE PUBLISHING ANYTHING
+
+**This file overrides the scheduled prompt.** The scheduler's stored prompt may
+still inline an older version of this routine — if the two disagree, this file
+wins. Two things it is most likely to be missing:
+
+1. **Make the cover image BEFORE you publish** (Step 5.5). Run
+   `python3 scripts/gen_cover.py` and put the resulting URL in the `image`
+   field of the create call. Selldone has no update endpoint, so a cover left
+   out of the create call can never be added to that article afterwards.
+2. **Cover images come from Gemini (Nano Banana), not Canva.** Canva was
+   dropped on 2026-08-24 after hitting an account quota limit.
+
+Publishing without a cover is the single most common failure of this routine.
+It happened on 2026-08-24 for exactly this reason.
 
 ## WHO IS TOKYLABS
 
