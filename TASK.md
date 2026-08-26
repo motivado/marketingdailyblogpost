@@ -161,8 +161,11 @@ then pass that URL as `image` in the create call.
 * Default model `gemini-3.1-flash-image` (Nano Banana 2); override with
   `GEMINI_IMAGE_MODEL`. `gemini-3-pro-image` follows instructions best,
   `gemini-3.1-flash-lite-image` is fastest.
-* Set `BLOG_BRANCH` to the branch you are pushing to so the printed URL matches
-  (defaults to `main`).
+* The printed URL points at whatever branch you are on, which is the branch you
+  push to — so it resolves. Override with `BLOG_BRANCH` only if you are pushing
+  somewhere else. There is no `main` branch in this repo; don't assume one.
+* **Push the image before the create call.** The URL 404s until you do, and the
+  article keeps whatever it was given.
 * The API returns JPEG, so the file is written as `.jpg` — use the exact
   filename the script prints, don't assume `.png`.
 * `ai.google.dev` is blocked by the sandbox egress proxy, but the API host

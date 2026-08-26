@@ -20,6 +20,7 @@ Requires GEMINI_API_KEY in the environment (set as a Claude Code env secret).
 import base64
 import json
 import os
+import subprocess
 import sys
 import time
 import urllib.error
@@ -97,6 +98,29 @@ def generate(prompt, api_key, retries=3):
     raise SystemExit(f"No image in response: {json.dumps(data)[:600]}")
 
 
+def current_branch(repo):
+    """The branch this run will push to — that is where the URL must point.
+
+    Guessing here is how a cover ends up 404ing on a live article (the old
+    default was 'main', which this repo does not have), so fail loudly
+    instead of falling back to a plausible-looking name.
+    """
+    try:
+        r = subprocess.run(
+            ["git", "-C", repo, "rev-parse", "--abbrev-ref", "HEAD"],
+            capture_output=True, text=True, timeout=15,
+        )
+        name = r.stdout.strip()
+        if r.returncode == 0 and name and name != "HEAD":
+            return name
+    except Exception:
+        pass
+    raise SystemExit(
+        "Cannot determine the current git branch — set BLOG_BRANCH to the "
+        "branch you will push this image to."
+    )
+
+
 def main():
     if len(sys.argv) != 4:
         raise SystemExit(__doc__)
@@ -119,8 +143,9 @@ def main():
     with open(out, "wb") as f:
         f.write(image)
 
-    branch = os.environ.get("BLOG_BRANCH", "main")
+    branch = os.environ.get("BLOG_BRANCH") or current_branch(repo)
     print(f"wrote {out}  ({len(image):,} bytes, {mime})")
+    print(f"\nCommit and push to '{branch}' BEFORE publishing, then use:")
     print(REPO_RAW.format(branch=branch, name=name))
 
 
