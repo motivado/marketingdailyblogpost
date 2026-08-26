@@ -21,6 +21,8 @@ TokyLabs magenta #FF0082 on off-white line art.
 | The Tiniest Robots in the World — And What They Teach Our Kids About Possibility | 743718 |
 | Why Critical Thinking Is the Most Important Skill You Can Give Your Child in the Age of AI | 743623 |
 | Why Creativity Is the Superpower Every Child Needs in the Age of AI | 743479 |
+| Inside a TokyLabs MakerSpace Session: 7 Moments That Change How Kids Think | 747095 |
+| Curiosity Today, Career Tomorrow: 5 STEM Paths Your Child Can Start Exploring Now | 748078 |
 
 Note: three of these posts (744993, 744797, 743718) already have older Canva
 covers pointing at per-session git branches. Replacing them with these files

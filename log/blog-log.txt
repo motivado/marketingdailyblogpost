@@ -26,3 +26,15 @@
              on the blog. First publish (745859) had no image; the attempt to add one
              created duplicate 745921. Both deleted, then republished once as 745924
              with the image included. Covers must now be generated BEFORE publishing.
+
+[2026-08-25] Source: Draft queue — drafts/makerspace-visit.md (origin_date: 2026-06-21)
+[2026-08-25] Title: "Inside a TokyLabs MakerSpace Session: 7 Moments That Change How Kids Think" | Selldone article ID: 747095 | slug: inside-a-tokylabs-makerspace-session-7-moments-that-change-how-kids-think
+[2026-08-25] Cover image: NONE — run still had the pre-Gemini TASK.md and tried Canva
+[2026-08-25] Status: Published ✅ (no cover)
+
+[2026-08-26] Source: Draft queue — drafts/stem-careers.md (origin_date: 2026-06-23)
+[2026-08-26] Title: "Curiosity Today, Career Tomorrow: 5 STEM Paths Your Child Can Start Exploring Now" | Selldone article ID: 748078 | slug: curiosity-today-career-tomorrow-5-stem-paths-your-child-can-start-exploring-now
+[2026-08-26] Cover image: NONE — run still had the pre-Gemini TASK.md and tried Canva
+[2026-08-26] Status: Published ✅ (no cover)
+[2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
+             this run. 2026-08-27 is the first run that will see it.
