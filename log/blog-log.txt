@@ -11,3 +11,11 @@
 [2026-08-21] Cover image: images/covers/robot-builds-brain.png (Canva design DAHS4I7rQmY)
 [2026-08-21] RSS feeds: 402 Payment Required — fell through to draft queue
 [2026-08-21] Status: Published ✅
+
+[2026-08-26] Source: Draft queue — drafts/stem-careers.md (origin_date: 2026-06-23, STEM careers focus)
+[2026-08-26] Title: "Curiosity Today, Career Tomorrow: 5 STEM Paths Your Child Can Start Exploring Now" | Selldone article ID: 748078 | slug: curiosity-today-career-tomorrow-5-stem-paths-your-child-can-start-exploring-now
+[2026-08-26] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-08-26] Ebook section used: n/a (published from draft queue)
+[2026-08-26] Cover image: none (Canva quota exhausted — published without image)
+[2026-08-26] RSS feeds: Trial expired — fell through to draft queue
+[2026-08-26] Status: Published ✅
