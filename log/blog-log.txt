@@ -38,3 +38,17 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-08-27] Source: Draft queue — drafts/movie-robots.md (inferred; article 748286 exists on Selldone but no log entry was written by that run)
+[2026-08-27] Title: "What Wall-E, Baymax, and R2-D2 Teach Kids About Real Robotics" | Selldone article ID: 748286 | slug: what-wall-e-baymax-and-r2-d2-teach-kids-about-real-robotics
+[2026-08-27] Cover image: images/covers/movie-robots.jpg (Gemini gemini-3.1-flash-image) — confirmed via Selldone API response
+[2026-08-27] Status: Published ✅ (reconstructed from Selldone API; log entry missing from that run)
+
+[2026-08-28] Source: Ebook Chapter 4.1 — Microcredentials (all drafts exhausted, all Notion Newsletter Ideas marked Used, RSS feeds: Trial expired)
+[2026-08-28] Title: "From Classroom Teacher to Certified Robotics Educator: How Short Courses Are Changing the Field" | Selldone article ID: 748443 | slug: from-classroom-teacher-to-certified-robotics-educator-how-short-courses-are-changing-the-field
+[2026-08-28] Notion Newsletter Idea used: n/a (all entries marked Used)
+[2026-08-28] Ebook section used: Chapter 4.1 — Microcredentials (why short courses unlock robotics teaching for non-tech educators)
+[2026-08-28] Cover image: images/covers/microcredentials-robotics-teacher.jpg (Gemini gemini-3.1-flash-image)
+[2026-08-28] Status: Published ✅
+[2026-08-28] NOTE: All draft files had posted: false but were already on Selldone — flags not updated by prior runs. Draft queue is now fully exhausted. Ebook sections remaining unused: Chapter 5 (5-step classroom integration roadmap) and sub-sections; fresh content should now come from ebook or new Notion ideas.
+[2026-08-28] NOTE: All Notion Newsletter Ideas are marked Used? = true. A human needs to add fresh ideas.

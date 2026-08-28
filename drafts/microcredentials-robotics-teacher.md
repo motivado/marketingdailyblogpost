@@ -1,6 +1,9 @@
 ---
 title: 'From Classroom Teacher to Certified Robotics Educator: How Short Courses Are Changing the Field'
-posted: false
+posted: true
+posted_date: '2026-08-28'
+selldone_article_id: 748443
+slug: from-classroom-teacher-to-certified-robotics-educator-how-short-courses-are-changing-the-field
 body_format: html
 origin_date: 2026-08-28
 origin_source: 'Ebook Chapter 4.1 — Microcredentials'
