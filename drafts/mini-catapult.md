@@ -1,10 +1,14 @@
 ---
 title: 'Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click'
-posted: false
+posted: true
+posted_date: 2026-08-29
+selldone_article_id: 748758
+slug: build-a-mini-catapult-with-your-kids-the-stem-project-that-makes-physics-click
 body_format: html
 origin_date: 2026-05-01
 origin_source: 'Notion Newsletter Idea — Catapult Cannon (Fam. Project)'
 canva_design_id: DAHPTajZOp4
+cover_image: images/covers/mini-catapult.jpg
 ---
 
 What if the best physics lesson your child ever gets does not happen in a classroom—but at your kitchen table, with cardboard, tape, and a spoon? Building a mini catapult together takes under an hour, costs almost nothing, and opens a door to real engineering thinking. Here is why this weekend project deserves a spot in every family's playbook.

@@ -38,3 +38,11 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-08-29] Source: Draft queue — drafts/mini-catapult.md (origin_date: 2026-05-01, after-school & family project focus)
+[2026-08-29] Title: "Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click" | Selldone article ID: 748758 | slug: build-a-mini-catapult-with-your-kids-the-stem-project-that-makes-physics-click
+[2026-08-29] Notion Newsletter Idea used: n/a (published from draft queue; origin was Catapult Cannon Fam. Project idea)
+[2026-08-29] Ebook section used: n/a (published from draft queue)
+[2026-08-29] Cover image: images/covers/mini-catapult.jpg (Gemini gemini-3.1-flash-image)
+[2026-08-29] RSS feeds: Trial expired — fell through to draft queue
+[2026-08-29] Status: Published ✅
