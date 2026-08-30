@@ -38,3 +38,12 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-08-30] Source: Draft queue — drafts/space-agencies-teachers.md (origin_date: 2026-05-06, teacher training / ESA angle)
+[2026-08-30] Title: "What the European Space Agency Can Teach Us About Robotics in the Classroom" | Selldone article ID: 748991 | slug: what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom
+[2026-08-30] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-08-30] Ebook section used: n/a (published from draft queue)
+[2026-08-30] Cover image: images/covers/what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom.jpg (Gemini gemini-3.1-flash-image)
+[2026-08-30] RSS feeds: Trial expired — fell through to draft queue
+[2026-08-30] Status: Published ✅
+[2026-08-30] NOTE: Many drafts had posted: false but were already on the blog — front matter was never updated. Fixed for space-agencies-teachers.md.

@@ -1,6 +1,9 @@
 ---
 title: 'What the European Space Agency Can Teach Us About Robotics in the Classroom'
-posted: false
+posted: true
+posted_date: '2026-08-30'
+selldone_article_id: 748991
+slug: what-the-european-space-agency-can-teach-us-about-robotics-in-the-classroom
 body_format: html
 origin_date: 2026-05-06
 ---
