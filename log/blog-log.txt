@@ -38,3 +38,11 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-08-31] Source: Draft queue — drafts/water-dispenser.md (origin_date: 2026-05-07, Notion Fam. Project: DIY Water Dispenser)
+[2026-08-31] Title: "What a DIY Water Dispenser Teaches Kids That a Textbook Never Could" | Selldone article ID: 749367 | slug: what-a-diy-water-dispenser-teaches-kids-that-a-textbook-never-could
+[2026-08-31] Notion Newsletter Idea used: DIY Water Dispenser (Fam. Project) — ID: 271f65d7fc2080068652d4c23c6278b4
+[2026-08-31] Ebook section used: n/a (published from draft queue)
+[2026-08-31] Cover image: images/covers/what-a-diy-water-dispenser-teaches-kids.jpg (Gemini gemini-3.1-flash-image)
+[2026-08-31] RSS feeds: 402 Payment Required (trial expired) — fell through to draft queue
+[2026-08-31] Status: Published ✅
