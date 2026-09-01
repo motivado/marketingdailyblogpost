@@ -1,6 +1,8 @@
 ---
 title: 'What a DIY Water Dispenser Teaches Kids That a Textbook Never Could'
-posted: false
+posted: true
+posted_date: unknown
+selldone_article_id: 749367
 body_format: html
 origin_date: 2026-05-07
 origin_source: 'Notion Newsletter Idea (Fam. Project — DIY Water Dispenser)'

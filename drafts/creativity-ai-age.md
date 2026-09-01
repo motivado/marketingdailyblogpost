@@ -1,6 +1,8 @@
 ---
 title: 'Why Creativity Is the Superpower Every Child Needs in the Age of AI'
-posted: false
+posted: true
+posted_date: unknown
+selldone_article_id: 743479
 body_format: html
 origin_date: 2026-07-06
 origin_source: 'Notion Instagram Idea — "Instagram Post - April 29th" (Status: Draft Image Review)'

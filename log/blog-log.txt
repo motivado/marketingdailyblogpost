@@ -38,3 +38,13 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-01] Source: Draft queue — drafts/education-conferences.md (origin_date: 2026-05-18, after-school & teacher focus)
+[2026-09-01] Title: "Why TokyLabs Shows Up at Education Conferences — And What We Heard" | Selldone article ID: 750014 | slug: why-tokylabs-shows-up-at-education-conferences-and-what-we-heard
+[2026-09-01] Notion Newsletter Idea used: n/a (published from draft queue; origin was UNCONFERENCE photo idea)
+[2026-09-01] Ebook section used: n/a (published from draft queue)
+[2026-09-01] Cover image: images/covers/why-tokylabs-shows-up-at-education-conferences.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-01] RSS feeds: 402 Payment Required — fell through to draft queue
+[2026-09-01] Status: Published ✅
+[2026-09-01] NOTE: Several draft files have posted:false but their titles ARE already on Selldone (published
+             by previous runs that didn't update front matter). Updated those flags below.

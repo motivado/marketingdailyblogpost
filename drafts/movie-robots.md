@@ -1,6 +1,8 @@
 ---
 title: 'What Wall-E, Baymax, and R2-D2 Teach Kids About Real Robotics'
-posted: false
+posted: true
+posted_date: unknown
+selldone_article_id: 748286
 body_format: html
 origin_date: 2026-07-08
 origin_source: 'Notion Newsletter Idea (Trivia / Cool Stuff)'
