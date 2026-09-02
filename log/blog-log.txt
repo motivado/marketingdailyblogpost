@@ -38,3 +38,11 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-02] Source: Notion Newsletter Idea — "Sea turtles navigate using Earth's magnetic field" (Trivia) + Ebook Chapter 3 (Why STEM and Robotics is crucial in the Future of Education)
+[2026-09-02] Title: "Nature's Hidden Engineers: What Sea Turtles Teach Kids About Sensors, Robotics, and Curiosity" | Selldone article ID: 751284 | slug: natures-hidden-engineers-what-sea-turtles-teach-kids-about-sensors-robotics-and-curiosity
+[2026-09-02] Notion Newsletter Idea used: "Sea turtles navigate thousands of kilometers using Earth's magnetic field — nature invented sensors long before engineers did" (Trivia, ID: 39cf65d7-fc20-81a3-9d5a-ef50a43f5f72) → marked Used? = true
+[2026-09-02] Ebook section used: Chapter 3 — Why STEM and Robotics is crucial in the Future of Education (biomimicry / observational curiosity angle)
+[2026-09-02] Cover image: images/covers/natures-hidden-engineers-sea-turtles-robotics.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-02] RSS feeds: 402 Payment Required — fell through to Notion/ebook
+[2026-09-02] Status: Published ✅

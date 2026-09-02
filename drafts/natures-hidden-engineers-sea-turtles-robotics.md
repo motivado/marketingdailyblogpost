@@ -1,6 +1,10 @@
 ---
 title: "Nature's Hidden Engineers: What Sea Turtles Teach Kids About Sensors, Robotics, and Curiosity"
-posted: false
+posted: true
+posted_date: '2026-09-02'
+selldone_article_id: 751284
+slug: natures-hidden-engineers-what-sea-turtles-teach-kids-about-sensors-robotics-and-curiosity
+cover_image: images/covers/natures-hidden-engineers-sea-turtles-robotics.jpg
 body_format: html
 origin_date: 2026-09-02
 origin_source: "Notion Newsletter Idea — Sea turtles navigate using Earth's magnetic field (Trivia, Used? = NO)"
