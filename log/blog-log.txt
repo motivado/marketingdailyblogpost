@@ -38,3 +38,11 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-03] Source: Draft queue — drafts/screenless-robotics.md (origin_date: 2026-07-10, Tokymini / screenless focus)
+[2026-09-03] Title: "Why Screenless Robotics Is the Best First Step for Young Learners" | Selldone article ID: 752499 | slug: why-screenless-robotics-is-the-best-first-step-for-young-learners
+[2026-09-03] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-09-03] Ebook section used: n/a (published from draft queue)
+[2026-09-03] RSS feeds: Trial expired — fell through to draft queue
+[2026-09-03] Cover image: images/covers/screenless-robotics-best-first-step.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-03] Status: Published ✅
