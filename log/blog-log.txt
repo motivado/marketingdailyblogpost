@@ -38,3 +38,15 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-04] Source: Ebook — Chapter 1.3: Teachers' Role in Shaping the Future of Education (Socratic dialogue / inquiry-based learning angle)
+[2026-09-04] Title: "The Question Is the Lesson: How Robotics Is Helping Teachers Teach Differently" | Selldone article ID: 752902 | slug: the-question-is-the-lesson-how-robotics-is-helping-teachers-teach-differently
+[2026-09-04] Notion Newsletter Idea used: n/a (all checked entries marked Used)
+[2026-09-04] Ebook section used: Chapter 1.3 — Teachers' role in shaping the future of education
+[2026-09-04] RSS feeds: environment variables not set; tried hard-coded URLs — "Trial expired"
+[2026-09-04] Draft queue: exhausted (all 17 drafts are posted: true as verified against Selldone API)
+[2026-09-04] Cover image: images/covers/the-question-is-the-lesson.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-04] Status: Published ✅
+[2026-09-04] NOTE: All Newsletter Ideas in Notion are marked Used? = true. Fresh ideas needed.
+[2026-09-04] NOTE: Draft queue fully exhausted — all draft files confirmed published via API cross-check.
+[2026-09-04] NOTE: RSS_FEED_TOKYLABS and RSS_FEED_TOKYLABS_BALI env vars not set; hard-coded feed URLs return "Trial expired". New rss.app subscription needed for Instagram content.
