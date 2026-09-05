@@ -1,6 +1,7 @@
 ---
 title: 'Why TokyLabs Shows Up at Education Conferences — And What We Heard'
-posted: false
+posted: true
+selldone_article_id: 750014
 body_format: html
 origin_date: 2026-05-18
 origin_source: 'Notion Newsletter Idea — "UNCONFERENCE photo" (What''s New?)'

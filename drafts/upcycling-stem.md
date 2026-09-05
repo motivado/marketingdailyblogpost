@@ -1,6 +1,7 @@
 ---
 title: 'When Creativity Meets Responsibility: How Upcycling Projects Turn Kids Into Thoughtful Makers'
-posted: false
+posted: true
+selldone_article_id: 743879
 body_format: html
 origin_date: 2026-07-12
 ---
