@@ -38,3 +38,13 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-05] Source: Draft queue — drafts/creativity-ai-age.md (origin_date: 2026-07-06, Notion Instagram Idea)
+[2026-09-05] Title: "Why Creativity Is the Superpower Every Child Needs in the Age of AI" | Selldone article ID: 753593 | slug: why-creativity-is-the-superpower-every-child-needs-in-the-age-of-ai
+[2026-09-05] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-09-05] Ebook section used: n/a (published from draft queue)
+[2026-09-05] RSS feeds: Trial expired — fell through to draft queue
+[2026-09-05] Cover image: images/covers/why-creativity-is-the-superpower-every-child-needs-in-the-age-of-ai.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-05] Status: Published ✅
+[2026-09-05] NOTE: 11 drafts had posted: false but were actually published in prior runs;
+             front-matter reconciled (IDs recorded) in same commit.
