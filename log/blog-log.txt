@@ -38,3 +38,16 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-06] Source: Draft queue — drafts/critical-thinking-age-of-ai.md (origin_date: not set, critical thinking / Tokymini focus)
+[2026-09-06] Title: "Why Critical Thinking Is the Most Important Skill You Can Give Your Child in the Age of AI" | Selldone article ID: 754151 | slug: why-critical-thinking-is-the-most-important-skill-you-can-give-your-child-in-the-age-of-ai
+[2026-09-06] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-09-06] Ebook section used: n/a (published from draft queue)
+[2026-09-06] Cover image: images/covers/critical-thinking-age-of-ai.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-06] RSS feeds: not checked (draft queue had an unpublished article — priority over RSS)
+[2026-09-06] Status: Published ✅
+[2026-09-06] NOTE: Many draft files still show posted: false despite being published in prior runs
+             (creativity-ai-age, education-conferences, effort-ai-age, kids-hackathons,
+              microrobots, mini-catapult, movie-robots, screenless-robotics,
+              space-agencies-teachers, upcycling-stem, water-dispenser).
+             Their front matter needs a human or a cleanup pass to mark them posted: true.
