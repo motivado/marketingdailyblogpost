@@ -38,3 +38,11 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-07] Source: Draft queue — drafts/microrobots.md (origin_date: 2026-05-20, Tokymini + Tokymaker focus)
+[2026-09-07] Title: "The Tiniest Robots in the World — And What They Teach Our Kids About Possibility" | Selldone article ID: 754804 | slug: the-tiniest-robots-in-the-world-and-what-they-teach-our-kids-about-possibility
+[2026-09-07] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-09-07] Ebook section used: n/a (published from draft queue)
+[2026-09-07] Cover image: images/covers/microrobots.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-07] RSS feeds: 402 Payment Required — trial expired, fell through to draft queue
+[2026-09-07] Status: Published ✅
