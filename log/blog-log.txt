@@ -38,3 +38,30 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-08] RECONCILIATION NOTE: The following articles appear on Selldone but were not logged
+             (published by prior automated runs between 2026-08-27 and 2026-09-07):
+             ID 744103 — Why the Flipped Classroom Is the Future of Robotics Education
+             ID 744544 — In the Age of AI, Effort Is Your Child's Most Valuable Skill (draft: effort-ai-age.md)
+             ID 745683 — Why a Student Hackathon Is One of the Best Learning Experiences You Can Give Your Child (draft: kids-hackathons.md)
+             ID 748286 — What Wall-E, Baymax, and R2-D2 Teach Kids About Real Robotics (draft: movie-robots.md)
+             ID 748443 — From Classroom Teacher to Certified Robotics Educator: How Short Courses Are Changing the Field
+             ID 748758 — Build a Mini Catapult with Your Kids: The STEM Project That Makes Physics Click (draft: mini-catapult.md)
+             ID 748991 — What the European Space Agency Can Teach Us About Robotics in the Classroom (draft: space-agencies-teachers.md)
+             ID 749367 — What a DIY Water Dispenser Teaches Kids That a Textbook Never Could (draft: water-dispenser.md)
+             ID 750014 — Why TokyLabs Shows Up at Education Conferences — And What We Heard (draft: education-conferences.md)
+             ID 751284 — Nature's Hidden Engineers: What Sea Turtles Teach Kids About Sensors, Robotics, and Curiosity
+             ID 752499 — Why Screenless Robotics Is the Best First Step for Young Learners (draft: screenless-robotics.md)
+             ID 752902 — The Question Is the Lesson: How Robotics Is Helping Teachers Teach Differently
+             ID 753593 — Why Creativity Is the Superpower Every Child Needs in the Age of AI (draft: creativity-ai-age.md)
+             ID 754151 — Why Critical Thinking Is the Most Important Skill You Can Give Your Child in the Age of AI (draft: critical-thinking-age-of-ai.md)
+             ID 754804 — The Tiniest Robots in the World — And What They Teach Our Kids About Possibility (draft: microrobots.md)
+             (Several draft files still show posted: false locally — they need to be updated manually.)
+
+[2026-09-08] Source: Draft queue — drafts/upcycling-stem.md (origin_date: 2026-07-12)
+[2026-09-08] Title: "When Creativity Meets Responsibility: How Upcycling Projects Turn Kids Into Thoughtful Makers" | Selldone article ID: 755896 | slug: when-creativity-meets-responsibility-how-upcycling-projects-turn-kids-into-thoughtful-makers
+[2026-09-08] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-09-08] Ebook section used: n/a (published from draft queue)
+[2026-09-08] Cover image: images/covers/when-creativity-meets-responsibility-upcycling.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-08] RSS feeds: env vars not set — fell through to draft queue
+[2026-09-08] Status: Published ✅
