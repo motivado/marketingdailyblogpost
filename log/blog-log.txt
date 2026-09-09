@@ -38,3 +38,12 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-09] Source: Ebook — Chapter 1.1 (The Changing Educational Landscape / Flipped Classroom model)
+[2026-09-09] Title: "Why the Best STEM Classrooms Flip the Script on Homework" | Selldone article ID: 756515 | slug: why-the-best-stem-classrooms-flip-the-script-on-homework
+[2026-09-09] Notion Newsletter Idea used: n/a (all 20 entries marked Used — needs fresh ideas added)
+[2026-09-09] Ebook section used: Chapter 1.1 — The Changing Educational Landscape / Flipped Classroom Model
+[2026-09-09] Cover image: images/covers/flip-the-script-on-homework.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-09] RSS feeds: 402 Payment Required — fell through to ebook
+[2026-09-09] Draft queue: exhausted (all posted:false drafts already published on Selldone)
+[2026-09-09] Status: Published ✅
