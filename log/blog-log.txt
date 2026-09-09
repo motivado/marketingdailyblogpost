@@ -38,3 +38,11 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-09] Source: Draft queue — drafts/effort-ai-age.md (origin_date: 2026-05-28)
+[2026-09-09] Title: "In the Age of AI, Effort Is Your Child's Most Valuable Skill" | Selldone article ID: 757112 | slug: in-the-age-of-ai-effort-is-your-childs-most-valuable-skill
+[2026-09-09] Notion Newsletter Idea used: n/a (published from draft queue)
+[2026-09-09] Ebook section used: n/a (published from draft queue)
+[2026-09-09] Cover image: images/covers/in-the-age-of-ai-effort-is-your-childs-most-valuable-skill.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-09] RSS feeds: Trial expired — fell through to draft queue
+[2026-09-09] Status: Published ✅
