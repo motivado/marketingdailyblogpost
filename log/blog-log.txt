@@ -38,3 +38,15 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-14] Source: Ebook — Chapter 5.1 "Finding the Problem and the Opportunity" (three gaps in school robotics programmes)
+[2026-09-14] Title: "Your School Says It Teaches Robotics. Here Are 3 Questions Worth Asking." | Selldone article ID: 760148 | slug: your-school-says-it-teaches-robotics-here-are-3-questions-worth-asking
+[2026-09-14] Notion Newsletter Idea used: n/a (all entries confirmed Used)
+[2026-09-14] Ebook section used: Chapter 5.1 — Finding the Problem and the Opportunity (ICT mislabelled as Robotics; Robotics restricted to middle school; lack of PBL structure)
+[2026-09-14] Cover image: images/covers/your-school-says-it-teaches-robotics-3-questions.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-14] RSS feeds: Trial expired — both @tokylabs and @tokylabs.bali feeds
+[2026-09-14] TokyLabs angle: Tokymini (after-school programmes and teacher certification)
+[2026-09-14] Status: Published ✅
+[2026-09-14] NOTE: All draft queue files with posted:false are already published on Selldone
+             (titles confirmed via API). Their YAML front matter was never updated.
+             Needs a human to update the posted:true status on these draft files.
