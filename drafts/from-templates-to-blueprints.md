@@ -1,6 +1,9 @@
 ---
 title: "From Templates to Blueprints: How Smart Robotics Teachers Adapt for Every Age"
-posted: false
+posted: true
+posted_date: 2026-09-21
+selldone_article_id: 766759
+slug: from-templates-to-blueprints-how-smart-robotics-teachers-adapt-for-every-age
 origin_date: 2026-09-21
 origin_source: 'Ebook — Chapter 7.2: Tools and Curriculum for Age and Level Differentiation'
 body_format: html

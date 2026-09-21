@@ -38,3 +38,15 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-21] Source: Ebook — Chapter 7.2: Tools and Curriculum for Age and Level Differentiation
+[2026-09-21] Title: "From Templates to Blueprints: How Smart Robotics Teachers Adapt for Every Age" | Selldone article ID: 766759 | slug: from-templates-to-blueprints-how-smart-robotics-teachers-adapt-for-every-age
+[2026-09-21] Notion Newsletter Idea used: n/a (all entries marked Used)
+[2026-09-21] Ebook section used: Chapter 7.2 — age and level differentiation in the classroom
+[2026-09-21] Cover image: images/covers/from-templates-to-blueprints-how-robotics-teachers-adapt-for-every-age.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-21] RSS feeds: Trial expired (both @tokylabs and @tokylabs.bali) — fell through to ebook
+[2026-09-21] Status: Published ✅
+[2026-09-21] NOTE: All draft files with posted:false had titles already on the blog (published
+             by previous runs that didn't update the draft front matter). Wrote fresh article
+             from ebook content instead.
+[2026-09-21] NOTE: All Notion Newsletter Ideas remain marked Used — new ideas needed.
