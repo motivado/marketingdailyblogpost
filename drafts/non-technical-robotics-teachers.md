@@ -1,6 +1,10 @@
 ---
 title: "Why Your Child's Best Robotics Teacher Might Not Be a Tech Expert"
-posted: false
+posted: true
+posted_date: '2026-09-28'
+selldone_article_id: 768345
+slug: why-your-childs-best-robotics-teacher-might-not-be-a-tech-expert
+cover_image: images/covers/why-your-childs-best-robotics-teacher-might-not-be-a-tech-expert.jpg
 body_format: html
 origin_date: 2026-09-28
 origin_source: 'Ebook — Chapter 4.2.1: Debunking the myth that robotics teaching is only for tech experts'

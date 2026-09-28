@@ -38,3 +38,12 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-09-28] Source: Ebook — Chapter 4.2.1: Debunking the myth that robotics teaching is only for tech experts
+[2026-09-28] Title: "Why Your Child's Best Robotics Teacher Might Not Be a Tech Expert" | Selldone article ID: 768345 | slug: why-your-childs-best-robotics-teacher-might-not-be-a-tech-expert
+[2026-09-28] Notion Newsletter Idea used: n/a (all checked entries marked Used)
+[2026-09-28] Ebook section used: Chapter 4.2.1 — "Debunking the myth that robotics teaching is only for tech experts"
+[2026-09-28] Cover image: images/covers/why-your-childs-best-robotics-teacher-might-not-be-a-tech-expert.jpg (Gemini gemini-3.1-flash-image)
+[2026-09-28] RSS feeds: Trial expired — no Instagram content available
+[2026-09-28] Draft queue: All drafts confirmed published via Selldone API — wrote fresh article from ebook
+[2026-09-28] Status: Published ✅
