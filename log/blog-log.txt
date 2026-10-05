@@ -38,3 +38,12 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-10-05] Source: Ebook (Chapter 3.2 — Screen-Free Learning / Hands-On Engineering) + Notion Newsletter Idea (Fam. Project)
+[2026-10-05] Title: "Build a Marble Run on Your Wall: The Family Engineering Challenge That Changes How Kids Think" | Selldone article ID: 769982 | slug: build-a-marble-run-on-your-wall-the-family-engineering-challenge-that-changes-how-kids-think
+[2026-10-05] Notion Newsletter Idea used: "Family project: design a marble run on the wall with cardboard tubes and painter's tape — then improve it one change at a time" (Fam. Project, ID: 39cf65d7-fc20-817e-a150-eb27c20e1ef4)
+[2026-10-05] Ebook section used: Chapter 3.2 — Benefits of Screen-Free Learning for Primary School Students (iterative design, trial and error, resilience)
+[2026-10-05] Cover image: images/covers/build-a-marble-run-family-stem-challenge.jpg (Gemini gemini-3.1-flash-image)
+[2026-10-05] RSS feeds: Trial expired — wrote new article from ebook + Notion idea
+[2026-10-05] TokyLabs angle: Tokymini / after-school robotics sessions
+[2026-10-05] Status: Published ✅
