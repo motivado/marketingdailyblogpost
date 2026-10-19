@@ -38,3 +38,12 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-10-19] Source: Notion Newsletter Idea — "TokyLabs Makerspace Spotlight" (page 261f65d7-fc20-8038-9b30-000b3cb15a1d) + ebook Chapter 4 (3-session structure, 70/30 curriculum)
+[2026-10-19] Title: "The 3-Session Rule: How TokyLabs Designs Robotics Projects That Children Never Want to Stop" | Selldone article ID: 772115 | slug: the-3-session-rule-how-tokylabs-designs-robotics-projects-that-children-never-want-to-stop
+[2026-10-19] Notion Newsletter Idea used: "TokyLabs Makerspace Spotlight" — marked Used ✅
+[2026-10-19] Ebook section used: Chapter 4 — 3-session project structure, 70/30 curriculum balance
+[2026-10-19] RSS feeds: Trial expired — fell through to Notion ideas queue
+[2026-10-19] Cover image: images/covers/three-session-robotics-rule.jpg (Gemini gemini-3.1-flash-image)
+[2026-10-19] Status: Published ✅
+[2026-10-19] NOTE: Deleted stale test articles 772113 and 772114 created during debugging this run.
