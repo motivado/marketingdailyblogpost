@@ -38,3 +38,13 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-11-02] Source: Draft queue — drafts/space-agencies-teachers.md (origin_date: 2026-05-06, teacher training & ESA focus)
+[2026-11-02] Title: "What the European Space Agency Can Teach Us About Robotics in the Classroom"
+[2026-11-02] Notion Newsletter Idea used: n/a (all checked ideas already marked Used)
+[2026-11-02] Ebook section used: n/a (published from draft queue)
+[2026-11-02] RSS feeds: Trial expired — fell through to draft queue
+[2026-11-02] Cover image: images/covers/european-space-agency-robotics-classroom.jpg (Gemini gemini-3.1-flash-image) — committed and pushed
+[2026-11-02] Status: Failed ❌ — SELLDONE_TOKEN returned {"error":true,"code":201,"error_msg":"Your token does not have access to this section."}
+[2026-11-02] ACTION REQUIRED: Regenerate SELLDONE_TOKEN in Selldone backoffice with backoffice:shop:write scope and update the environment secret.
+[2026-11-02] Article ready to publish: cover image at branch claude/clever-keller-ck2u85, draft at drafts/space-agencies-teachers.md
