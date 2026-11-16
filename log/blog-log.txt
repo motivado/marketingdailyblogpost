@@ -38,3 +38,17 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-11-16] Source: Ebook Chapter 5 (5-step roadmap to integrate robotics into classroom)
+[2026-11-16] Title: "5 Steps to Launch a Robotics Programme at Your School — Even Without a Technical Background"
+[2026-11-16] Notion Newsletter Idea used: n/a — ALL newsletter ideas are now marked Used (needs fresh ideas added)
+[2026-11-16] Ebook section used: Chapter 5 — Roadmap to integrate robotics into your classroom (5.1–5.5)
+[2026-11-16] Cover image: images/covers/5-steps-launch-robotics-programme-school.jpg (Gemini gemini-3.1-flash-image)
+[2026-11-16] RSS feeds: 402 Payment Required — fell through to ebook article
+[2026-11-16] Status: Failed ❌ — SELLDONE_TOKEN lacks write scope (error 11000: "Your token does not have access to this section.")
+[2026-11-16] Draft saved: drafts/5-steps-robotics-programme.md (cover image committed and pushed, ready to publish once token is fixed)
+[2026-11-16] NOTE: All draft files from May–July 2026 show posted:false but their titles ARE on the blog (IDs 738888–740868).
+             These were published in earlier runs but draft files were never updated to posted:true.
+[2026-11-16] ACTION NEEDED: Regenerate SELLDONE_TOKEN in Selldone with backoffice:shop:write scope and update the
+             environment secret. The token currently only allows reads (GET /shops/2362/blogs works, POST to
+             /article/shop-blog/edit returns error 11000).
