@@ -38,3 +38,19 @@
 [2026-08-26] Status: Published ✅ (no cover)
 [2026-08-26] NOTE: The Gemini switch reached the default branch at 03:05 UTC, ~3h after
              this run. 2026-08-27 is the first run that will see it.
+
+[2026-11-23] Source: Ebook — Chapter 1.3 (Socratic dialogue / iterative "why?" technique) + hackathon story
+[2026-11-23] Title: "Ask Why Three Times: The Simple Thinking Habit That Robotics Builds in Every Child" | Selldone article ID: n/a
+[2026-11-23] Notion Newsletter Idea used: n/a (all entries marked Used; task "New Ideas on newsletter ideas" in Notion is In Progress but empty)
+[2026-11-23] Ebook section used: Chapter 1.3 — Teachers' role / Socratic dialogue + hackathon plastic pollution story
+[2026-11-23] Cover image: images/covers/the-why-why-why-technique-robotics.jpg (Gemini gemini-3.1-flash-image) ✅ pushed to branch
+[2026-11-23] RSS feeds: 402 Payment Required — fell through to ebook
+[2026-11-23] Status: Failed ❌ — SELLDONE_TOKEN lacks write scope (error 11000: "token does not have access to this section")
+[2026-11-23] Draft saved: drafts/the-why-why-why-technique.md (ready to publish once token is fixed)
+[2026-11-23] NOTE: All existing draft files (creativity-ai-age.md, critical-thinking-age-of-ai.md,
+             education-conferences.md, effort-ai-age.md, kids-hackathons.md, microrobots.md,
+             mini-catapult.md, movie-robots.md, screenless-robotics.md, space-agencies-teachers.md,
+             upcycling-stem.md, water-dispenser.md) are already published on the Selldone blog
+             but their draft files still show posted:false. These need to be updated manually.
+[2026-11-23] ACTION REQUIRED: Regenerate SELLDONE_TOKEN in Selldone backoffice with
+             backoffice:shop:write scope and update environment secret in Claude Code settings.
